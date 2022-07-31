@@ -9,10 +9,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macos-latest, ubuntu-latest]
+        os: [ubuntu-latest]
         include:
-          - os: macos-latest
-            TARGET: macos
           - os: ubuntu-latest
             TARGET: linux
 
@@ -47,6 +45,7 @@ jobs:
       - name: make jar
         shell: bash
         run: |
+          export PATH=${PATH}:/tmp/jextract/bin
           make jar
 
       - name: upload platform-specific JAR to artifacts
