@@ -1,0 +1,68 @@
+name: build and test
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build-and-test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+        include:
+          - os: macos-latest
+            TARGET: macos
+          - os: ubuntu-latest
+            TARGET: linux
+
+    steps:
+      - name: 'Download jextract'
+        id: jextract
+        uses: oracle-actions/setup-java@v1.1.1
+        with:
+          install: false
+          uri: https://download.java.net/java/early_access/jextract/2/openjdk-19-jextract+2-3_${{ matrix.TARGET }}-x64_bin.tar.gz
+
+      - name: 'Extract jextract'
+        shell: sh
+        run: |
+          mkdir -p /tmp/jextract
+          tar --strip-components=1 -xvf ${{ steps.jextract.outputs.archive }} -C /tmp/jextract
+          export PATH=${PATH}:/tmp/jextract/bin
+
+      - name: 'Download JDK 19'
+        id: jdk_19
+        uses: oracle-actions/setup-java@v1.1.1
+        with:
+          website: jdk.java.net
+          release: 19
+          install: true
+
+      - name: 'Check out repository'
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - name: make jar
+        shell: bash
+        run: |
+          make jar
+
+      - name: upload platform-specific JAR to artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          path: target/*.jar
+          if-no-files-found: error
+
+  access-jars:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    steps:
+      - name: download JARs
+        uses: actions/download-artifact@v3
+        with:
+          path: target/jars
+      - name: test presence
+        run: |
+          ls -lah target/jars/artifact
