@@ -3,9 +3,6 @@ name: build and release
 on:
   push:
     branches: [ master ]
-    paths:
-      - pom.xml
-      - Makefile
 
 jobs:
   build-and-test:
@@ -49,7 +46,7 @@ jobs:
 
       - name: Publish package
         run: |
-          make deploy-jar package=com.jtesseract
+          make deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
