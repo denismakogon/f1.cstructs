@@ -27,7 +27,6 @@ jobs:
         run: |
           mkdir -p /tmp/jextract
           tar --strip-components=1 -xvf ${{ steps.jextract.outputs.archive }} -C /tmp/jextract
-          export PATH=${PATH}:/tmp/jextract/bin
 
       - name: 'Download JDK 19'
         id: jdk_19
@@ -44,6 +43,7 @@ jobs:
 
       - name: Publish package
         run: |
+          export PATH=${PATH}:/tmp/jextract/bin
           make deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -68,13 +68,18 @@ jobs:
         with:
           path: target/jars
 
-#      - name: 'make release'
-#        uses: marvinpinto/action-automatic-releases@latest
-#        with:
-#          repo_token: ${{ secrets.GH_RELEASE_TOKEN }}
-#          automatic_release_tag: ${{ steps.version.outputs.version }}
-#          prerelease: false
-#          title: java-f1-game-udp-specs
-#          files: |
-#            LICENSE
-#            target/jars/artifact/*.jar
+      - name: version
+        id: version
+        shell: bash
+        run: echo "::set-output name=version::$(date +'%Y.%m.%d')"
+
+      - name: 'make release'
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: ${{ secrets.GH_RELEASE_TOKEN }}
+          automatic_release_tag: ${{ steps.version.outputs.version }}
+          prerelease: false
+          title: f1.game C API ${{ steps.version.outputs.version }}
+          files: |
+            LICENSE
+            target/jars/artifact/*.jar
