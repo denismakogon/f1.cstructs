@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA69395E2897EBD800395FB9 /* f1.game.2022.07.31.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6939142897EBD800395FB9 /* f1.game.2022.07.31.jar */; };
+		AA69395F2897EBD800395FB9 /* PacketMotionData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69393B2897EBD800395FB9 /* PacketMotionData.java */; };
+		AA6939602897EBD800395FB9 /* Constants$root.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69393C2897EBD800395FB9 /* Constants$root.java */; };
+		AA6939612897EBD800395FB9 /* CarTelemetryData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69393D2897EBD800395FB9 /* CarTelemetryData.java */; };
+		AA6939622897EBD800395FB9 /* MarshalZone.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69393E2897EBD800395FB9 /* MarshalZone.java */; };
+		AA6939632897EBD800395FB9 /* PacketSessionHistoryData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69393F2897EBD800395FB9 /* PacketSessionHistoryData.java */; };
+		AA6939642897EBD800395FB9 /* EventDataDetails.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939402897EBD800395FB9 /* EventDataDetails.java */; };
+		AA6939652897EBD900395FB9 /* CarDamageData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939412897EBD800395FB9 /* CarDamageData.java */; };
+		AA6939662897EBD900395FB9 /* PacketLapData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939422897EBD800395FB9 /* PacketLapData.java */; };
+		AA6939672897EBD900395FB9 /* CarMotionData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939432897EBD800395FB9 /* CarMotionData.java */; };
+		AA6939682897EBD900395FB9 /* PacketHeader.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939442897EBD800395FB9 /* PacketHeader.java */; };
+		AA6939692897EBD900395FB9 /* PacketCarDamageData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939452897EBD800395FB9 /* PacketCarDamageData.java */; };
+		AA69396A2897EBD900395FB9 /* CarSetupData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939462897EBD800395FB9 /* CarSetupData.java */; };
+		AA69396B2897EBD900395FB9 /* PacketFinalClassificationData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939472897EBD800395FB9 /* PacketFinalClassificationData.java */; };
+		AA69396C2897EBD900395FB9 /* PacketCarTelemetryData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939482897EBD800395FB9 /* PacketCarTelemetryData.java */; };
+		AA69396D2897EBD900395FB9 /* ParticipantData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939492897EBD800395FB9 /* ParticipantData.java */; };
+		AA69396E2897EBD900395FB9 /* PacketSessionData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394A2897EBD800395FB9 /* PacketSessionData.java */; };
+		AA69396F2897EBD900395FB9 /* LobbyInfoData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394B2897EBD800395FB9 /* LobbyInfoData.java */; };
+		AA6939702897EBD900395FB9 /* c_api.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394C2897EBD800395FB9 /* c_api.java */; };
+		AA6939712897EBD900395FB9 /* FinalClassificationData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394D2897EBD800395FB9 /* FinalClassificationData.java */; };
+		AA6939722897EBD900395FB9 /* LapData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394E2897EBD800395FB9 /* LapData.java */; };
+		AA6939732897EBD900395FB9 /* CarStatusData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394F2897EBD800395FB9 /* CarStatusData.java */; };
+		AA6939742897EBD900395FB9 /* PacketCarSetupData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939502897EBD800395FB9 /* PacketCarSetupData.java */; };
+		AA6939752897EBD900395FB9 /* PacketParticipantsData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939512897EBD800395FB9 /* PacketParticipantsData.java */; };
+		AA6939762897EBD900395FB9 /* TyreStintHistoryData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939522897EBD800395FB9 /* TyreStintHistoryData.java */; };
+		AA6939772897EBD900395FB9 /* LapHistoryData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939532897EBD800395FB9 /* LapHistoryData.java */; };
+		AA6939782897EBD900395FB9 /* WeatherForecastSample.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939542897EBD800395FB9 /* WeatherForecastSample.java */; };
+		AA6939792897EBD900395FB9 /* RuntimeHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939552897EBD800395FB9 /* RuntimeHelper.java */; };
+		AA69397A2897EBD900395FB9 /* PacketEventData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939562897EBD800395FB9 /* PacketEventData.java */; };
+		AA69397B2897EBD900395FB9 /* PacketLobbyInfoData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939572897EBD800395FB9 /* PacketLobbyInfoData.java */; };
+		AA69397C2897EBD900395FB9 /* PacketCarStatusData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939582897EBD800395FB9 /* PacketCarStatusData.java */; };
+		AA69397D2897EBD900395FB9 /* wait.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939592897EBD800395FB9 /* wait.java */; };
+		AA69397E2897EBD900395FB9 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = AA69395B2897EBD800395FB9 /* Makefile */; };
+		AABC17D02897EAF400D65373 /* (null) in Sources */ = {isa = PBXBuildFile; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AABC17CA2897EAF400D65373 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA6938D72897EBD800395FB9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AA6938DF2897EBD800395FB9 /* PacketLobbyInfoData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketLobbyInfoData.class; sourceTree = "<group>"; };
+		AA6938E02897EBD800395FB9 /* CarDamageData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = CarDamageData.class; sourceTree = "<group>"; };
+		AA6938E12897EBD800395FB9 /* EventDataDetails$StartLIghts.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$StartLIghts.class; sourceTree = "<group>"; };
+		AA6938E22897EBD800395FB9 /* EventDataDetails$Penalty.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$Penalty.class; sourceTree = "<group>"; };
+		AA6938E32897EBD800395FB9 /* PacketCarDamageData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketCarDamageData.class; sourceTree = "<group>"; };
+		AA6938E42897EBD800395FB9 /* PacketLapData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketLapData.class; sourceTree = "<group>"; };
+		AA6938E52897EBD800395FB9 /* PacketSessionData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketSessionData.class; sourceTree = "<group>"; };
+		AA6938E62897EBD800395FB9 /* PacketParticipantsData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketParticipantsData.class; sourceTree = "<group>"; };
+		AA6938E72897EBD800395FB9 /* EventDataDetails$FastestLap.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$FastestLap.class; sourceTree = "<group>"; };
+		AA6938E82897EBD800395FB9 /* PacketMotionData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketMotionData.class; sourceTree = "<group>"; };
+		AA6938E92897EBD800395FB9 /* LobbyInfoData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = LobbyInfoData.class; sourceTree = "<group>"; };
+		AA6938EA2897EBD800395FB9 /* EventDataDetails$Buttons.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$Buttons.class; sourceTree = "<group>"; };
+		AA6938EB2897EBD800395FB9 /* PacketHeader.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketHeader.class; sourceTree = "<group>"; };
+		AA6938EC2897EBD800395FB9 /* RuntimeHelper.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = RuntimeHelper.class; sourceTree = "<group>"; };
+		AA6938ED2897EBD800395FB9 /* ParticipantData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = ParticipantData.class; sourceTree = "<group>"; };
+		AA6938EE2897EBD800395FB9 /* c_api.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = c_api.class; sourceTree = "<group>"; };
+		AA6938EF2897EBD800395FB9 /* wait.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = wait.class; sourceTree = "<group>"; };
+		AA6938F02897EBD800395FB9 /* EventDataDetails$RaceWinner.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$RaceWinner.class; sourceTree = "<group>"; };
+		AA6938F12897EBD800395FB9 /* CarSetupData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = CarSetupData.class; sourceTree = "<group>"; };
+		AA6938F22897EBD800395FB9 /* EventDataDetails$TeamMateInPits.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$TeamMateInPits.class; sourceTree = "<group>"; };
+		AA6938F32897EBD800395FB9 /* EventDataDetails$Retirement.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$Retirement.class; sourceTree = "<group>"; };
+		AA6938F42897EBD800395FB9 /* wait$w_T.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = wait$w_T.class; sourceTree = "<group>"; };
+		AA6938F52897EBD800395FB9 /* PacketSessionHistoryData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketSessionHistoryData.class; sourceTree = "<group>"; };
+		AA6938F62897EBD800395FB9 /* MarshalZone.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = MarshalZone.class; sourceTree = "<group>"; };
+		AA6938F72897EBD800395FB9 /* EventDataDetails$DriveThroughPenaltyServed.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$DriveThroughPenaltyServed.class; sourceTree = "<group>"; };
+		AA6938F82897EBD800395FB9 /* LapHistoryData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = LapHistoryData.class; sourceTree = "<group>"; };
+		AA6938F92897EBD800395FB9 /* WeatherForecastSample.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = WeatherForecastSample.class; sourceTree = "<group>"; };
+		AA6938FA2897EBD800395FB9 /* FinalClassificationData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = FinalClassificationData.class; sourceTree = "<group>"; };
+		AA6938FB2897EBD800395FB9 /* EventDataDetails.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails.class; sourceTree = "<group>"; };
+		AA6938FC2897EBD800395FB9 /* LapData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = LapData.class; sourceTree = "<group>"; };
+		AA6938FD2897EBD800395FB9 /* EventDataDetails$SpeedTrap.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$SpeedTrap.class; sourceTree = "<group>"; };
+		AA6938FE2897EBD800395FB9 /* Constants$root.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Constants$root.class; sourceTree = "<group>"; };
+		AA6938FF2897EBD800395FB9 /* PacketCarStatusData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketCarStatusData.class; sourceTree = "<group>"; };
+		AA6939002897EBD800395FB9 /* PacketEventData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketEventData.class; sourceTree = "<group>"; };
+		AA6939012897EBD800395FB9 /* CarMotionData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = CarMotionData.class; sourceTree = "<group>"; };
+		AA6939022897EBD800395FB9 /* wait$w_S.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = wait$w_S.class; sourceTree = "<group>"; };
+		AA6939032897EBD800395FB9 /* PacketCarTelemetryData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketCarTelemetryData.class; sourceTree = "<group>"; };
+		AA6939042897EBD800395FB9 /* PacketFinalClassificationData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketFinalClassificationData.class; sourceTree = "<group>"; };
+		AA6939052897EBD800395FB9 /* PacketCarSetupData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = PacketCarSetupData.class; sourceTree = "<group>"; };
+		AA6939062897EBD800395FB9 /* TyreStintHistoryData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = TyreStintHistoryData.class; sourceTree = "<group>"; };
+		AA6939072897EBD800395FB9 /* CarTelemetryData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = CarTelemetryData.class; sourceTree = "<group>"; };
+		AA6939082897EBD800395FB9 /* EventDataDetails$Flashback.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$Flashback.class; sourceTree = "<group>"; };
+		AA6939092897EBD800395FB9 /* CarStatusData.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = CarStatusData.class; sourceTree = "<group>"; };
+		AA69390A2897EBD800395FB9 /* EventDataDetails$StopGoPenaltyServed.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = EventDataDetails$StopGoPenaltyServed.class; sourceTree = "<group>"; };
+		AA69390B2897EBD800395FB9 /* RuntimeHelper$VarargsInvoker.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = RuntimeHelper$VarargsInvoker.class; sourceTree = "<group>"; };
+		AA6939102897EBD800395FB9 /* inputFiles.lst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inputFiles.lst; sourceTree = "<group>"; };
+		AA6939112897EBD800395FB9 /* createdFiles.lst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = createdFiles.lst; sourceTree = "<group>"; };
+		AA6939132897EBD800395FB9 /* pom.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pom.properties; sourceTree = "<group>"; };
+		AA6939142897EBD800395FB9 /* f1.game.2022.07.31.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = f1.game.2022.07.31.jar; sourceTree = "<group>"; };
+		AA6939152897EBD800395FB9 /* pom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pom.xml; sourceTree = "<group>"; };
+		AA6939182897EBD800395FB9 /* PacketCarTelemetryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarTelemetryData.h; sourceTree = "<group>"; };
+		AA6939192897EBD800395FB9 /* TyreStintHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyreStintHistoryData.h; sourceTree = "<group>"; };
+		AA69391A2897EBD800395FB9 /* CarMotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarMotionData.h; sourceTree = "<group>"; };
+		AA69391B2897EBD800395FB9 /* MarshalZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarshalZone.h; sourceTree = "<group>"; };
+		AA69391C2897EBD800395FB9 /* PacketFinalClassificationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketFinalClassificationData.h; sourceTree = "<group>"; };
+		AA69391D2897EBD800395FB9 /* PacketLapData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketLapData.h; sourceTree = "<group>"; };
+		AA69391E2897EBD800395FB9 /* PacketHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketHeader.h; sourceTree = "<group>"; };
+		AA69391F2897EBD800395FB9 /* PacketCarStatusData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarStatusData.h; sourceTree = "<group>"; };
+		AA6939202897EBD800395FB9 /* PacketCarDamageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarDamageData.h; sourceTree = "<group>"; };
+		AA6939212897EBD800395FB9 /* PacketParticipantsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketParticipantsData.h; sourceTree = "<group>"; };
+		AA6939222897EBD800395FB9 /* LobbyInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyInfoData.h; sourceTree = "<group>"; };
+		AA6939232897EBD800395FB9 /* FinalClassificationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalClassificationData.h; sourceTree = "<group>"; };
+		AA6939242897EBD800395FB9 /* CarTelemetryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTelemetryData.h; sourceTree = "<group>"; };
+		AA6939252897EBD800395FB9 /* PacketSessionHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketSessionHistoryData.h; sourceTree = "<group>"; };
+		AA6939262897EBD800395FB9 /* EventDataDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDataDetails.h; sourceTree = "<group>"; };
+		AA6939272897EBD800395FB9 /* PacketCarSetupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarSetupData.h; sourceTree = "<group>"; };
+		AA6939282897EBD800395FB9 /* PacketLobbyInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketLobbyInfoData.h; sourceTree = "<group>"; };
+		AA6939292897EBD800395FB9 /* capi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = capi.h; sourceTree = "<group>"; };
+		AA69392A2897EBD800395FB9 /* PacketEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketEventData.h; sourceTree = "<group>"; };
+		AA69392B2897EBD800395FB9 /* CarDamageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarDamageData.h; sourceTree = "<group>"; };
+		AA69392C2897EBD800395FB9 /* LapHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapHistoryData.h; sourceTree = "<group>"; };
+		AA69392D2897EBD800395FB9 /* CarStatusData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarStatusData.h; sourceTree = "<group>"; };
+		AA69392E2897EBD800395FB9 /* LapData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapData.h; sourceTree = "<group>"; };
+		AA69392F2897EBD800395FB9 /* WeatherForecastSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherForecastSample.h; sourceTree = "<group>"; };
+		AA6939302897EBD800395FB9 /* PacketMotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketMotionData.h; sourceTree = "<group>"; };
+		AA6939312897EBD800395FB9 /* CarSetupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarSetupData.h; sourceTree = "<group>"; };
+		AA6939322897EBD800395FB9 /* PacketSessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketSessionData.h; sourceTree = "<group>"; };
+		AA6939332897EBD800395FB9 /* ParticipantData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantData.h; sourceTree = "<group>"; };
+		AA69393B2897EBD800395FB9 /* PacketMotionData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketMotionData.java; sourceTree = "<group>"; };
+		AA69393C2897EBD800395FB9 /* Constants$root.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Constants$root.java; sourceTree = "<group>"; };
+		AA69393D2897EBD800395FB9 /* CarTelemetryData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CarTelemetryData.java; sourceTree = "<group>"; };
+		AA69393E2897EBD800395FB9 /* MarshalZone.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MarshalZone.java; sourceTree = "<group>"; };
+		AA69393F2897EBD800395FB9 /* PacketSessionHistoryData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketSessionHistoryData.java; sourceTree = "<group>"; };
+		AA6939402897EBD800395FB9 /* EventDataDetails.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = EventDataDetails.java; sourceTree = "<group>"; };
+		AA6939412897EBD800395FB9 /* CarDamageData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CarDamageData.java; sourceTree = "<group>"; };
+		AA6939422897EBD800395FB9 /* PacketLapData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketLapData.java; sourceTree = "<group>"; };
+		AA6939432897EBD800395FB9 /* CarMotionData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CarMotionData.java; sourceTree = "<group>"; };
+		AA6939442897EBD800395FB9 /* PacketHeader.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketHeader.java; sourceTree = "<group>"; };
+		AA6939452897EBD800395FB9 /* PacketCarDamageData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketCarDamageData.java; sourceTree = "<group>"; };
+		AA6939462897EBD800395FB9 /* CarSetupData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CarSetupData.java; sourceTree = "<group>"; };
+		AA6939472897EBD800395FB9 /* PacketFinalClassificationData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketFinalClassificationData.java; sourceTree = "<group>"; };
+		AA6939482897EBD800395FB9 /* PacketCarTelemetryData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketCarTelemetryData.java; sourceTree = "<group>"; };
+		AA6939492897EBD800395FB9 /* ParticipantData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ParticipantData.java; sourceTree = "<group>"; };
+		AA69394A2897EBD800395FB9 /* PacketSessionData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketSessionData.java; sourceTree = "<group>"; };
+		AA69394B2897EBD800395FB9 /* LobbyInfoData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LobbyInfoData.java; sourceTree = "<group>"; };
+		AA69394C2897EBD800395FB9 /* c_api.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = c_api.java; sourceTree = "<group>"; };
+		AA69394D2897EBD800395FB9 /* FinalClassificationData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FinalClassificationData.java; sourceTree = "<group>"; };
+		AA69394E2897EBD800395FB9 /* LapData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LapData.java; sourceTree = "<group>"; };
+		AA69394F2897EBD800395FB9 /* CarStatusData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CarStatusData.java; sourceTree = "<group>"; };
+		AA6939502897EBD800395FB9 /* PacketCarSetupData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketCarSetupData.java; sourceTree = "<group>"; };
+		AA6939512897EBD800395FB9 /* PacketParticipantsData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketParticipantsData.java; sourceTree = "<group>"; };
+		AA6939522897EBD800395FB9 /* TyreStintHistoryData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TyreStintHistoryData.java; sourceTree = "<group>"; };
+		AA6939532897EBD800395FB9 /* LapHistoryData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LapHistoryData.java; sourceTree = "<group>"; };
+		AA6939542897EBD800395FB9 /* WeatherForecastSample.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WeatherForecastSample.java; sourceTree = "<group>"; };
+		AA6939552897EBD800395FB9 /* RuntimeHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RuntimeHelper.java; sourceTree = "<group>"; };
+		AA6939562897EBD800395FB9 /* PacketEventData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketEventData.java; sourceTree = "<group>"; };
+		AA6939572897EBD800395FB9 /* PacketLobbyInfoData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketLobbyInfoData.java; sourceTree = "<group>"; };
+		AA6939582897EBD800395FB9 /* PacketCarStatusData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketCarStatusData.java; sourceTree = "<group>"; };
+		AA6939592897EBD800395FB9 /* wait.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = wait.java; sourceTree = "<group>"; };
+		AA69395A2897EBD800395FB9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AA69395B2897EBD800395FB9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		AA69395D2897EBD800395FB9 /* diff.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = diff.py; sourceTree = "<group>"; };
+		AABC17CC2897EAF400D65373 /* src */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = src; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABC17C92897EAF400D65373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69395E2897EBD800395FB9 /* f1.game.2022.07.31.jar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6938D82897EBD800395FB9 /* target */ = {
+			isa = PBXGroup;
+			children = (
+				AA6938D92897EBD800395FB9 /* generated-sources */,
+				AA6938DB2897EBD800395FB9 /* classes */,
+				AA69390C2897EBD800395FB9 /* maven-status */,
+				AA6939122897EBD800395FB9 /* maven-archiver */,
+				AA6939142897EBD800395FB9 /* f1.game.2022.07.31.jar */,
+			);
+			path = target;
+			sourceTree = "<group>";
+		};
+		AA6938D92897EBD800395FB9 /* generated-sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA6938DA2897EBD800395FB9 /* annotations */,
+			);
+			path = "generated-sources";
+			sourceTree = "<group>";
+		};
+		AA6938DA2897EBD800395FB9 /* annotations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = annotations;
+			sourceTree = "<group>";
+		};
+		AA6938DB2897EBD800395FB9 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA6938DC2897EBD800395FB9 /* f1 */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		AA6938DC2897EBD800395FB9 /* f1 */ = {
+			isa = PBXGroup;
+			children = (
+				AA6938DD2897EBD800395FB9 /* specs */,
+			);
+			path = f1;
+			sourceTree = "<group>";
+		};
+		AA6938DD2897EBD800395FB9 /* specs */ = {
+			isa = PBXGroup;
+			children = (
+				AA6938DE2897EBD800395FB9 /* datatypes */,
+			);
+			path = specs;
+			sourceTree = "<group>";
+		};
+		AA6938DE2897EBD800395FB9 /* datatypes */ = {
+			isa = PBXGroup;
+			children = (
+				AA6938DF2897EBD800395FB9 /* PacketLobbyInfoData.class */,
+				AA6938E02897EBD800395FB9 /* CarDamageData.class */,
+				AA6938E12897EBD800395FB9 /* EventDataDetails$StartLIghts.class */,
+				AA6938E22897EBD800395FB9 /* EventDataDetails$Penalty.class */,
+				AA6938E32897EBD800395FB9 /* PacketCarDamageData.class */,
+				AA6938E42897EBD800395FB9 /* PacketLapData.class */,
+				AA6938E52897EBD800395FB9 /* PacketSessionData.class */,
+				AA6938E62897EBD800395FB9 /* PacketParticipantsData.class */,
+				AA6938E72897EBD800395FB9 /* EventDataDetails$FastestLap.class */,
+				AA6938E82897EBD800395FB9 /* PacketMotionData.class */,
+				AA6938E92897EBD800395FB9 /* LobbyInfoData.class */,
+				AA6938EA2897EBD800395FB9 /* EventDataDetails$Buttons.class */,
+				AA6938EB2897EBD800395FB9 /* PacketHeader.class */,
+				AA6938EC2897EBD800395FB9 /* RuntimeHelper.class */,
+				AA6938ED2897EBD800395FB9 /* ParticipantData.class */,
+				AA6938EE2897EBD800395FB9 /* c_api.class */,
+				AA6938EF2897EBD800395FB9 /* wait.class */,
+				AA6938F02897EBD800395FB9 /* EventDataDetails$RaceWinner.class */,
+				AA6938F12897EBD800395FB9 /* CarSetupData.class */,
+				AA6938F22897EBD800395FB9 /* EventDataDetails$TeamMateInPits.class */,
+				AA6938F32897EBD800395FB9 /* EventDataDetails$Retirement.class */,
+				AA6938F42897EBD800395FB9 /* wait$w_T.class */,
+				AA6938F52897EBD800395FB9 /* PacketSessionHistoryData.class */,
+				AA6938F62897EBD800395FB9 /* MarshalZone.class */,
+				AA6938F72897EBD800395FB9 /* EventDataDetails$DriveThroughPenaltyServed.class */,
+				AA6938F82897EBD800395FB9 /* LapHistoryData.class */,
+				AA6938F92897EBD800395FB9 /* WeatherForecastSample.class */,
+				AA6938FA2897EBD800395FB9 /* FinalClassificationData.class */,
+				AA6938FB2897EBD800395FB9 /* EventDataDetails.class */,
+				AA6938FC2897EBD800395FB9 /* LapData.class */,
+				AA6938FD2897EBD800395FB9 /* EventDataDetails$SpeedTrap.class */,
+				AA6938FE2897EBD800395FB9 /* Constants$root.class */,
+				AA6938FF2897EBD800395FB9 /* PacketCarStatusData.class */,
+				AA6939002897EBD800395FB9 /* PacketEventData.class */,
+				AA6939012897EBD800395FB9 /* CarMotionData.class */,
+				AA6939022897EBD800395FB9 /* wait$w_S.class */,
+				AA6939032897EBD800395FB9 /* PacketCarTelemetryData.class */,
+				AA6939042897EBD800395FB9 /* PacketFinalClassificationData.class */,
+				AA6939052897EBD800395FB9 /* PacketCarSetupData.class */,
+				AA6939062897EBD800395FB9 /* TyreStintHistoryData.class */,
+				AA6939072897EBD800395FB9 /* CarTelemetryData.class */,
+				AA6939082897EBD800395FB9 /* EventDataDetails$Flashback.class */,
+				AA6939092897EBD800395FB9 /* CarStatusData.class */,
+				AA69390A2897EBD800395FB9 /* EventDataDetails$StopGoPenaltyServed.class */,
+				AA69390B2897EBD800395FB9 /* RuntimeHelper$VarargsInvoker.class */,
+			);
+			path = datatypes;
+			sourceTree = "<group>";
+		};
+		AA69390C2897EBD800395FB9 /* maven-status */ = {
+			isa = PBXGroup;
+			children = (
+				AA69390D2897EBD800395FB9 /* maven-compiler-plugin */,
+			);
+			path = "maven-status";
+			sourceTree = "<group>";
+		};
+		AA69390D2897EBD800395FB9 /* maven-compiler-plugin */ = {
+			isa = PBXGroup;
+			children = (
+				AA69390E2897EBD800395FB9 /* compile */,
+			);
+			path = "maven-compiler-plugin";
+			sourceTree = "<group>";
+		};
+		AA69390E2897EBD800395FB9 /* compile */ = {
+			isa = PBXGroup;
+			children = (
+				AA69390F2897EBD800395FB9 /* default-compile */,
+			);
+			path = compile;
+			sourceTree = "<group>";
+		};
+		AA69390F2897EBD800395FB9 /* default-compile */ = {
+			isa = PBXGroup;
+			children = (
+				AA6939102897EBD800395FB9 /* inputFiles.lst */,
+				AA6939112897EBD800395FB9 /* createdFiles.lst */,
+			);
+			path = "default-compile";
+			sourceTree = "<group>";
+		};
+		AA6939122897EBD800395FB9 /* maven-archiver */ = {
+			isa = PBXGroup;
+			children = (
+				AA6939132897EBD800395FB9 /* pom.properties */,
+			);
+			path = "maven-archiver";
+			sourceTree = "<group>";
+		};
+		AA6939162897EBD800395FB9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AA6939172897EBD800395FB9 /* include */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AA6939172897EBD800395FB9 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AA6939182897EBD800395FB9 /* PacketCarTelemetryData.h */,
+				AA6939192897EBD800395FB9 /* TyreStintHistoryData.h */,
+				AA69391A2897EBD800395FB9 /* CarMotionData.h */,
+				AA69391B2897EBD800395FB9 /* MarshalZone.h */,
+				AA69391C2897EBD800395FB9 /* PacketFinalClassificationData.h */,
+				AA69391D2897EBD800395FB9 /* PacketLapData.h */,
+				AA69391E2897EBD800395FB9 /* PacketHeader.h */,
+				AA69391F2897EBD800395FB9 /* PacketCarStatusData.h */,
+				AA6939202897EBD800395FB9 /* PacketCarDamageData.h */,
+				AA6939212897EBD800395FB9 /* PacketParticipantsData.h */,
+				AA6939222897EBD800395FB9 /* LobbyInfoData.h */,
+				AA6939232897EBD800395FB9 /* FinalClassificationData.h */,
+				AA6939242897EBD800395FB9 /* CarTelemetryData.h */,
+				AA6939252897EBD800395FB9 /* PacketSessionHistoryData.h */,
+				AA6939262897EBD800395FB9 /* EventDataDetails.h */,
+				AA6939272897EBD800395FB9 /* PacketCarSetupData.h */,
+				AA6939282897EBD800395FB9 /* PacketLobbyInfoData.h */,
+				AA6939292897EBD800395FB9 /* capi.h */,
+				AA69392A2897EBD800395FB9 /* PacketEventData.h */,
+				AA69392B2897EBD800395FB9 /* CarDamageData.h */,
+				AA69392C2897EBD800395FB9 /* LapHistoryData.h */,
+				AA69392D2897EBD800395FB9 /* CarStatusData.h */,
+				AA69392E2897EBD800395FB9 /* LapData.h */,
+				AA69392F2897EBD800395FB9 /* WeatherForecastSample.h */,
+				AA6939302897EBD800395FB9 /* PacketMotionData.h */,
+				AA6939312897EBD800395FB9 /* CarSetupData.h */,
+				AA6939322897EBD800395FB9 /* PacketSessionData.h */,
+				AA6939332897EBD800395FB9 /* ParticipantData.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AA6939342897EBD800395FB9 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				AA6939352897EBD800395FB9 /* src */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		AA6939352897EBD800395FB9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AA6939362897EBD800395FB9 /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AA6939362897EBD800395FB9 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				AA6939372897EBD800395FB9 /* java */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		AA6939372897EBD800395FB9 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				AA6939382897EBD800395FB9 /* f1 */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		AA6939382897EBD800395FB9 /* f1 */ = {
+			isa = PBXGroup;
+			children = (
+				AA6939392897EBD800395FB9 /* specs */,
+			);
+			path = f1;
+			sourceTree = "<group>";
+		};
+		AA6939392897EBD800395FB9 /* specs */ = {
+			isa = PBXGroup;
+			children = (
+				AA69393A2897EBD800395FB9 /* datatypes */,
+			);
+			path = specs;
+			sourceTree = "<group>";
+		};
+		AA69393A2897EBD800395FB9 /* datatypes */ = {
+			isa = PBXGroup;
+			children = (
+				AA69393B2897EBD800395FB9 /* PacketMotionData.java */,
+				AA69393C2897EBD800395FB9 /* Constants$root.java */,
+				AA69393D2897EBD800395FB9 /* CarTelemetryData.java */,
+				AA69393E2897EBD800395FB9 /* MarshalZone.java */,
+				AA69393F2897EBD800395FB9 /* PacketSessionHistoryData.java */,
+				AA6939402897EBD800395FB9 /* EventDataDetails.java */,
+				AA6939412897EBD800395FB9 /* CarDamageData.java */,
+				AA6939422897EBD800395FB9 /* PacketLapData.java */,
+				AA6939432897EBD800395FB9 /* CarMotionData.java */,
+				AA6939442897EBD800395FB9 /* PacketHeader.java */,
+				AA6939452897EBD800395FB9 /* PacketCarDamageData.java */,
+				AA6939462897EBD800395FB9 /* CarSetupData.java */,
+				AA6939472897EBD800395FB9 /* PacketFinalClassificationData.java */,
+				AA6939482897EBD800395FB9 /* PacketCarTelemetryData.java */,
+				AA6939492897EBD800395FB9 /* ParticipantData.java */,
+				AA69394A2897EBD800395FB9 /* PacketSessionData.java */,
+				AA69394B2897EBD800395FB9 /* LobbyInfoData.java */,
+				AA69394C2897EBD800395FB9 /* c_api.java */,
+				AA69394D2897EBD800395FB9 /* FinalClassificationData.java */,
+				AA69394E2897EBD800395FB9 /* LapData.java */,
+				AA69394F2897EBD800395FB9 /* CarStatusData.java */,
+				AA6939502897EBD800395FB9 /* PacketCarSetupData.java */,
+				AA6939512897EBD800395FB9 /* PacketParticipantsData.java */,
+				AA6939522897EBD800395FB9 /* TyreStintHistoryData.java */,
+				AA6939532897EBD800395FB9 /* LapHistoryData.java */,
+				AA6939542897EBD800395FB9 /* WeatherForecastSample.java */,
+				AA6939552897EBD800395FB9 /* RuntimeHelper.java */,
+				AA6939562897EBD800395FB9 /* PacketEventData.java */,
+				AA6939572897EBD800395FB9 /* PacketLobbyInfoData.java */,
+				AA6939582897EBD800395FB9 /* PacketCarStatusData.java */,
+				AA6939592897EBD800395FB9 /* wait.java */,
+			);
+			path = datatypes;
+			sourceTree = "<group>";
+		};
+		AA69395C2897EBD800395FB9 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				AA69395D2897EBD800395FB9 /* diff.py */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		AABC17C32897EAF400D65373 = {
+			isa = PBXGroup;
+			children = (
+				AA69395C2897EBD800395FB9 /* scripts */,
+				AA6939342897EBD800395FB9 /* build */,
+				AA69395A2897EBD800395FB9 /* LICENSE */,
+				AA69395B2897EBD800395FB9 /* Makefile */,
+				AA6939152897EBD800395FB9 /* pom.xml */,
+				AA6938D72897EBD800395FB9 /* README.md */,
+				AA6939162897EBD800395FB9 /* src */,
+				AA6938D82897EBD800395FB9 /* target */,
+				AABC17CD2897EAF400D65373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABC17CD2897EAF400D65373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABC17CC2897EAF400D65373 /* src */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABC17CB2897EAF400D65373 /* src */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABC17D32897EAF400D65373 /* Build configuration list for PBXNativeTarget "src" */;
+			buildPhases = (
+				AABC17C82897EAF400D65373 /* Sources */,
+				AABC17C92897EAF400D65373 /* Frameworks */,
+				AABC17CA2897EAF400D65373 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = src;
+			productName = src;
+			productReference = AABC17CC2897EAF400D65373 /* src */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABC17C42897EAF400D65373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AABC17CB2897EAF400D65373 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AABC17C72897EAF400D65373 /* Build configuration list for PBXProject "clang.f1.game" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AABC17C32897EAF400D65373;
+			productRefGroup = AABC17CD2897EAF400D65373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABC17CB2897EAF400D65373 /* src */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABC17C82897EAF400D65373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69397B2897EBD900395FB9 /* PacketLobbyInfoData.java in Sources */,
+				AA69397C2897EBD900395FB9 /* PacketCarStatusData.java in Sources */,
+				AA6939772897EBD900395FB9 /* LapHistoryData.java in Sources */,
+				AA69397E2897EBD900395FB9 /* Makefile in Sources */,
+				AA6939732897EBD900395FB9 /* CarStatusData.java in Sources */,
+				AA6939622897EBD800395FB9 /* MarshalZone.java in Sources */,
+				AA6939702897EBD900395FB9 /* c_api.java in Sources */,
+				AA6939652897EBD900395FB9 /* CarDamageData.java in Sources */,
+				AA6939762897EBD900395FB9 /* TyreStintHistoryData.java in Sources */,
+				AA6939672897EBD900395FB9 /* CarMotionData.java in Sources */,
+				AA6939632897EBD800395FB9 /* PacketSessionHistoryData.java in Sources */,
+				AA69396A2897EBD900395FB9 /* CarSetupData.java in Sources */,
+				AA6939742897EBD900395FB9 /* PacketCarSetupData.java in Sources */,
+				AA6939722897EBD900395FB9 /* LapData.java in Sources */,
+				AA6939662897EBD900395FB9 /* PacketLapData.java in Sources */,
+				AA69397D2897EBD900395FB9 /* wait.java in Sources */,
+				AA69396C2897EBD900395FB9 /* PacketCarTelemetryData.java in Sources */,
+				AA69396B2897EBD900395FB9 /* PacketFinalClassificationData.java in Sources */,
+				AA6939792897EBD900395FB9 /* RuntimeHelper.java in Sources */,
+				AA69396F2897EBD900395FB9 /* LobbyInfoData.java in Sources */,
+				AA6939612897EBD800395FB9 /* CarTelemetryData.java in Sources */,
+				AABC17D02897EAF400D65373 /* (null) in Sources */,
+				AA6939682897EBD900395FB9 /* PacketHeader.java in Sources */,
+				AA6939782897EBD900395FB9 /* WeatherForecastSample.java in Sources */,
+				AA69396E2897EBD900395FB9 /* PacketSessionData.java in Sources */,
+				AA6939602897EBD800395FB9 /* Constants$root.java in Sources */,
+				AA6939642897EBD800395FB9 /* EventDataDetails.java in Sources */,
+				AA6939712897EBD900395FB9 /* FinalClassificationData.java in Sources */,
+				AA69396D2897EBD900395FB9 /* ParticipantData.java in Sources */,
+				AA69395F2897EBD800395FB9 /* PacketMotionData.java in Sources */,
+				AA69397A2897EBD900395FB9 /* PacketEventData.java in Sources */,
+				AA6939692897EBD900395FB9 /* PacketCarDamageData.java in Sources */,
+				AA6939752897EBD900395FB9 /* PacketParticipantsData.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AABC17D12897EAF400D65373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AABC17D22897EAF400D65373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AABC17D42897EAF400D65373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A36G9WH7N8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AABC17D52897EAF400D65373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A36G9WH7N8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABC17C72897EAF400D65373 /* Build configuration list for PBXProject "clang.f1.game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABC17D12897EAF400D65373 /* Debug */,
+				AABC17D22897EAF400D65373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABC17D32897EAF400D65373 /* Build configuration list for PBXNativeTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABC17D42897EAF400D65373 /* Debug */,
+				AABC17D52897EAF400D65373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABC17C42897EAF400D65373 /* Project object */;
+}

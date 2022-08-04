@@ -1,5 +1,21 @@
-# f1-game-udp-specs
+# F1 Telemetry C structs
 
-UDP specs of the Formula 1 games by EA/Codemasters
+C Structs and Java library based on https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274
 
-A working copy of https://github.com/hotlaps/f1-game-udp-specs.
+## How to build...
+
+... Java sources:
+```shell
+make src
+```
+
+... JAR:
+```shell
+make jar
+```
+
+## How to deploy
+
+```shell
+make deploy
+```
