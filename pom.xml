@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>f1.game</artifactId>
+    <artifactId>f1.cstructs</artifactId>
     <groupId>clang</groupId>
     <version>${version}</version>
-    <description>f1-game-udp-specs</description>
+    <description>f1.cstructs</description>
     <url>https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274</url>
 
     <licenses>
