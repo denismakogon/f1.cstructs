@@ -71,7 +71,6 @@ struct Buttons
                                                 // currently - see appendices
 };
 
-
 union EventDataDetails
 {
     struct FastestLap m_fastestLap;

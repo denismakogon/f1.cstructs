@@ -1,19 +1,12 @@
-#ifndef capi_h
-#define capi_h
+//
+//  part_one.h
+//  src
+//
+//  Created by Denis Makogon on 05.08.2022.
+//
 
-#include <stdlib.h>
-
-typedef char int8;
-typedef unsigned char uint8;
-typedef short int16;
-typedef unsigned short uint16;
-typedef unsigned int uint32;
-typedef long int64;
-typedef unsigned long uint64;
-
-#ifdef __cplusplus
-extern "C" {
-#endif
+#ifndef part_one_h
+#define part_one_h
 
 #include "PacketHeader.h"
 #include "CarDamageData.h"
@@ -37,14 +30,6 @@ extern "C" {
 #include "PacketLobbyInfoData.h"
 #include "PacketMotionData.h"
 #include "ParticipantData.h"
-#include "PacketParticipantsData.h"
-#include "WeatherForecastSample.h"
-#include "PacketSessionData.h"
-#include "TyreStintHistoryData.h"
-#include "PacketSessionHistoryData.h"
 
-#ifdef __cplusplus
-}
-#endif
 
-#endif /* capi_h */
+#endif /* part_one_h */
