@@ -8,37 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AA69395E2897EBD800395FB9 /* f1.game.2022.07.31.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6939142897EBD800395FB9 /* f1.game.2022.07.31.jar */; };
-		AA69395F2897EBD800395FB9 /* PacketMotionData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69393B2897EBD800395FB9 /* PacketMotionData.java */; };
-		AA6939602897EBD800395FB9 /* Constants$root.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69393C2897EBD800395FB9 /* Constants$root.java */; };
-		AA6939612897EBD800395FB9 /* CarTelemetryData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69393D2897EBD800395FB9 /* CarTelemetryData.java */; };
-		AA6939622897EBD800395FB9 /* MarshalZone.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69393E2897EBD800395FB9 /* MarshalZone.java */; };
-		AA6939632897EBD800395FB9 /* PacketSessionHistoryData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69393F2897EBD800395FB9 /* PacketSessionHistoryData.java */; };
-		AA6939642897EBD800395FB9 /* EventDataDetails.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939402897EBD800395FB9 /* EventDataDetails.java */; };
-		AA6939652897EBD900395FB9 /* CarDamageData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939412897EBD800395FB9 /* CarDamageData.java */; };
-		AA6939662897EBD900395FB9 /* PacketLapData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939422897EBD800395FB9 /* PacketLapData.java */; };
-		AA6939672897EBD900395FB9 /* CarMotionData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939432897EBD800395FB9 /* CarMotionData.java */; };
-		AA6939682897EBD900395FB9 /* PacketHeader.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939442897EBD800395FB9 /* PacketHeader.java */; };
-		AA6939692897EBD900395FB9 /* PacketCarDamageData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939452897EBD800395FB9 /* PacketCarDamageData.java */; };
-		AA69396A2897EBD900395FB9 /* CarSetupData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939462897EBD800395FB9 /* CarSetupData.java */; };
-		AA69396B2897EBD900395FB9 /* PacketFinalClassificationData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939472897EBD800395FB9 /* PacketFinalClassificationData.java */; };
-		AA69396C2897EBD900395FB9 /* PacketCarTelemetryData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939482897EBD800395FB9 /* PacketCarTelemetryData.java */; };
-		AA69396D2897EBD900395FB9 /* ParticipantData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939492897EBD800395FB9 /* ParticipantData.java */; };
-		AA69396E2897EBD900395FB9 /* PacketSessionData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394A2897EBD800395FB9 /* PacketSessionData.java */; };
-		AA69396F2897EBD900395FB9 /* LobbyInfoData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394B2897EBD800395FB9 /* LobbyInfoData.java */; };
-		AA6939702897EBD900395FB9 /* c_api.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394C2897EBD800395FB9 /* c_api.java */; };
-		AA6939712897EBD900395FB9 /* FinalClassificationData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394D2897EBD800395FB9 /* FinalClassificationData.java */; };
-		AA6939722897EBD900395FB9 /* LapData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394E2897EBD800395FB9 /* LapData.java */; };
-		AA6939732897EBD900395FB9 /* CarStatusData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA69394F2897EBD800395FB9 /* CarStatusData.java */; };
-		AA6939742897EBD900395FB9 /* PacketCarSetupData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939502897EBD800395FB9 /* PacketCarSetupData.java */; };
-		AA6939752897EBD900395FB9 /* PacketParticipantsData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939512897EBD800395FB9 /* PacketParticipantsData.java */; };
-		AA6939762897EBD900395FB9 /* TyreStintHistoryData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939522897EBD800395FB9 /* TyreStintHistoryData.java */; };
-		AA6939772897EBD900395FB9 /* LapHistoryData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939532897EBD800395FB9 /* LapHistoryData.java */; };
-		AA6939782897EBD900395FB9 /* WeatherForecastSample.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939542897EBD800395FB9 /* WeatherForecastSample.java */; };
-		AA6939792897EBD900395FB9 /* RuntimeHelper.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939552897EBD800395FB9 /* RuntimeHelper.java */; };
-		AA69397A2897EBD900395FB9 /* PacketEventData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939562897EBD800395FB9 /* PacketEventData.java */; };
-		AA69397B2897EBD900395FB9 /* PacketLobbyInfoData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939572897EBD800395FB9 /* PacketLobbyInfoData.java */; };
-		AA69397C2897EBD900395FB9 /* PacketCarStatusData.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939582897EBD800395FB9 /* PacketCarStatusData.java */; };
-		AA69397D2897EBD900395FB9 /* wait.java in Sources */ = {isa = PBXBuildFile; fileRef = AA6939592897EBD800395FB9 /* wait.java */; };
 		AA69397E2897EBD900395FB9 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = AA69395B2897EBD800395FB9 /* Makefile */; };
 		AABC17D02897EAF400D65373 /* (null) in Sources */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
@@ -107,69 +76,70 @@
 		AA6939132897EBD800395FB9 /* pom.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pom.properties; sourceTree = "<group>"; };
 		AA6939142897EBD800395FB9 /* f1.game.2022.07.31.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = f1.game.2022.07.31.jar; sourceTree = "<group>"; };
 		AA6939152897EBD800395FB9 /* pom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pom.xml; sourceTree = "<group>"; };
-		AA6939182897EBD800395FB9 /* PacketCarTelemetryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarTelemetryData.h; sourceTree = "<group>"; };
-		AA6939192897EBD800395FB9 /* TyreStintHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyreStintHistoryData.h; sourceTree = "<group>"; };
-		AA69391A2897EBD800395FB9 /* CarMotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarMotionData.h; sourceTree = "<group>"; };
-		AA69391B2897EBD800395FB9 /* MarshalZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarshalZone.h; sourceTree = "<group>"; };
-		AA69391C2897EBD800395FB9 /* PacketFinalClassificationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketFinalClassificationData.h; sourceTree = "<group>"; };
-		AA69391D2897EBD800395FB9 /* PacketLapData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketLapData.h; sourceTree = "<group>"; };
-		AA69391E2897EBD800395FB9 /* PacketHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketHeader.h; sourceTree = "<group>"; };
-		AA69391F2897EBD800395FB9 /* PacketCarStatusData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarStatusData.h; sourceTree = "<group>"; };
-		AA6939202897EBD800395FB9 /* PacketCarDamageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarDamageData.h; sourceTree = "<group>"; };
-		AA6939212897EBD800395FB9 /* PacketParticipantsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketParticipantsData.h; sourceTree = "<group>"; };
-		AA6939222897EBD800395FB9 /* LobbyInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyInfoData.h; sourceTree = "<group>"; };
-		AA6939232897EBD800395FB9 /* FinalClassificationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalClassificationData.h; sourceTree = "<group>"; };
-		AA6939242897EBD800395FB9 /* CarTelemetryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTelemetryData.h; sourceTree = "<group>"; };
-		AA6939252897EBD800395FB9 /* PacketSessionHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketSessionHistoryData.h; sourceTree = "<group>"; };
-		AA6939262897EBD800395FB9 /* EventDataDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDataDetails.h; sourceTree = "<group>"; };
-		AA6939272897EBD800395FB9 /* PacketCarSetupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarSetupData.h; sourceTree = "<group>"; };
-		AA6939282897EBD800395FB9 /* PacketLobbyInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketLobbyInfoData.h; sourceTree = "<group>"; };
-		AA6939292897EBD800395FB9 /* capi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = capi.h; sourceTree = "<group>"; };
-		AA69392A2897EBD800395FB9 /* PacketEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketEventData.h; sourceTree = "<group>"; };
-		AA69392B2897EBD800395FB9 /* CarDamageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarDamageData.h; sourceTree = "<group>"; };
-		AA69392C2897EBD800395FB9 /* LapHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapHistoryData.h; sourceTree = "<group>"; };
-		AA69392D2897EBD800395FB9 /* CarStatusData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarStatusData.h; sourceTree = "<group>"; };
-		AA69392E2897EBD800395FB9 /* LapData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapData.h; sourceTree = "<group>"; };
-		AA69392F2897EBD800395FB9 /* WeatherForecastSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherForecastSample.h; sourceTree = "<group>"; };
-		AA6939302897EBD800395FB9 /* PacketMotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketMotionData.h; sourceTree = "<group>"; };
-		AA6939312897EBD800395FB9 /* CarSetupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarSetupData.h; sourceTree = "<group>"; };
-		AA6939322897EBD800395FB9 /* PacketSessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketSessionData.h; sourceTree = "<group>"; };
-		AA6939332897EBD800395FB9 /* ParticipantData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantData.h; sourceTree = "<group>"; };
-		AA69393B2897EBD800395FB9 /* PacketMotionData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketMotionData.java; sourceTree = "<group>"; };
-		AA69393C2897EBD800395FB9 /* Constants$root.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Constants$root.java; sourceTree = "<group>"; };
-		AA69393D2897EBD800395FB9 /* CarTelemetryData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CarTelemetryData.java; sourceTree = "<group>"; };
-		AA69393E2897EBD800395FB9 /* MarshalZone.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MarshalZone.java; sourceTree = "<group>"; };
-		AA69393F2897EBD800395FB9 /* PacketSessionHistoryData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketSessionHistoryData.java; sourceTree = "<group>"; };
-		AA6939402897EBD800395FB9 /* EventDataDetails.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = EventDataDetails.java; sourceTree = "<group>"; };
-		AA6939412897EBD800395FB9 /* CarDamageData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CarDamageData.java; sourceTree = "<group>"; };
-		AA6939422897EBD800395FB9 /* PacketLapData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketLapData.java; sourceTree = "<group>"; };
-		AA6939432897EBD800395FB9 /* CarMotionData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CarMotionData.java; sourceTree = "<group>"; };
-		AA6939442897EBD800395FB9 /* PacketHeader.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketHeader.java; sourceTree = "<group>"; };
-		AA6939452897EBD800395FB9 /* PacketCarDamageData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketCarDamageData.java; sourceTree = "<group>"; };
-		AA6939462897EBD800395FB9 /* CarSetupData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CarSetupData.java; sourceTree = "<group>"; };
-		AA6939472897EBD800395FB9 /* PacketFinalClassificationData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketFinalClassificationData.java; sourceTree = "<group>"; };
-		AA6939482897EBD800395FB9 /* PacketCarTelemetryData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketCarTelemetryData.java; sourceTree = "<group>"; };
-		AA6939492897EBD800395FB9 /* ParticipantData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ParticipantData.java; sourceTree = "<group>"; };
-		AA69394A2897EBD800395FB9 /* PacketSessionData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketSessionData.java; sourceTree = "<group>"; };
-		AA69394B2897EBD800395FB9 /* LobbyInfoData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LobbyInfoData.java; sourceTree = "<group>"; };
-		AA69394C2897EBD800395FB9 /* c_api.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = c_api.java; sourceTree = "<group>"; };
-		AA69394D2897EBD800395FB9 /* FinalClassificationData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = FinalClassificationData.java; sourceTree = "<group>"; };
-		AA69394E2897EBD800395FB9 /* LapData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LapData.java; sourceTree = "<group>"; };
-		AA69394F2897EBD800395FB9 /* CarStatusData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CarStatusData.java; sourceTree = "<group>"; };
-		AA6939502897EBD800395FB9 /* PacketCarSetupData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketCarSetupData.java; sourceTree = "<group>"; };
-		AA6939512897EBD800395FB9 /* PacketParticipantsData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketParticipantsData.java; sourceTree = "<group>"; };
-		AA6939522897EBD800395FB9 /* TyreStintHistoryData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TyreStintHistoryData.java; sourceTree = "<group>"; };
-		AA6939532897EBD800395FB9 /* LapHistoryData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = LapHistoryData.java; sourceTree = "<group>"; };
-		AA6939542897EBD800395FB9 /* WeatherForecastSample.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WeatherForecastSample.java; sourceTree = "<group>"; };
-		AA6939552897EBD800395FB9 /* RuntimeHelper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RuntimeHelper.java; sourceTree = "<group>"; };
-		AA6939562897EBD800395FB9 /* PacketEventData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketEventData.java; sourceTree = "<group>"; };
-		AA6939572897EBD800395FB9 /* PacketLobbyInfoData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketLobbyInfoData.java; sourceTree = "<group>"; };
-		AA6939582897EBD800395FB9 /* PacketCarStatusData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PacketCarStatusData.java; sourceTree = "<group>"; };
-		AA6939592897EBD800395FB9 /* wait.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = wait.java; sourceTree = "<group>"; };
 		AA69395A2897EBD800395FB9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AA69395B2897EBD800395FB9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		AA69395D2897EBD800395FB9 /* diff.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = diff.py; sourceTree = "<group>"; };
 		AABC17CC2897EAF400D65373 /* src */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = src; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF080BE289C679B0063B3AD /* PacketCarTelemetryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketCarTelemetryData.h; sourceTree = "<group>"; };
+		AAF080BF289C679B0063B3AD /* TyreStintHistoryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyreStintHistoryData.h; sourceTree = "<group>"; };
+		AAF080C0289C679B0063B3AD /* CarMotionData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarMotionData.h; sourceTree = "<group>"; };
+		AAF080C1289C679B0063B3AD /* MarshalZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarshalZone.h; sourceTree = "<group>"; };
+		AAF080C2289C679B0063B3AD /* PacketFinalClassificationData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketFinalClassificationData.h; sourceTree = "<group>"; };
+		AAF080C3289C679B0063B3AD /* PacketLapData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketLapData.h; sourceTree = "<group>"; };
+		AAF080C4289C679B0063B3AD /* PacketHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketHeader.h; sourceTree = "<group>"; };
+		AAF080C5289C679B0063B3AD /* PacketCarStatusData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketCarStatusData.h; sourceTree = "<group>"; };
+		AAF080C6289C679B0063B3AD /* PacketCarDamageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketCarDamageData.h; sourceTree = "<group>"; };
+		AAF080C7289C679B0063B3AD /* PacketParticipantsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketParticipantsData.h; sourceTree = "<group>"; };
+		AAF080C8289C679B0063B3AD /* LobbyInfoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LobbyInfoData.h; sourceTree = "<group>"; };
+		AAF080C9289C679B0063B3AD /* FinalClassificationData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalClassificationData.h; sourceTree = "<group>"; };
+		AAF080CA289C679B0063B3AD /* CarTelemetryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarTelemetryData.h; sourceTree = "<group>"; };
+		AAF080CB289C679B0063B3AD /* PacketSessionHistoryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketSessionHistoryData.h; sourceTree = "<group>"; };
+		AAF080CC289C679B0063B3AD /* EventDataDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventDataDetails.h; sourceTree = "<group>"; };
+		AAF080CD289C679B0063B3AD /* PacketCarSetupData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketCarSetupData.h; sourceTree = "<group>"; };
+		AAF080CE289C679B0063B3AD /* PacketLobbyInfoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketLobbyInfoData.h; sourceTree = "<group>"; };
+		AAF080CF289C679B0063B3AD /* PacketEventData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketEventData.h; sourceTree = "<group>"; };
+		AAF080D0289C679B0063B3AD /* CarDamageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarDamageData.h; sourceTree = "<group>"; };
+		AAF080D1289C679B0063B3AD /* LapHistoryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LapHistoryData.h; sourceTree = "<group>"; };
+		AAF080D2289C679B0063B3AD /* CarStatusData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarStatusData.h; sourceTree = "<group>"; };
+		AAF080D3289C679B0063B3AD /* LapData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LapData.h; sourceTree = "<group>"; };
+		AAF080D4289C679B0063B3AD /* WeatherForecastSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherForecastSample.h; sourceTree = "<group>"; };
+		AAF080D5289C679B0063B3AD /* PacketMotionData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketMotionData.h; sourceTree = "<group>"; };
+		AAF080D6289C679B0063B3AD /* CarSetupData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarSetupData.h; sourceTree = "<group>"; };
+		AAF080D7289C679B0063B3AD /* PacketSessionData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketSessionData.h; sourceTree = "<group>"; };
+		AAF080D8289C679B0063B3AD /* ParticipantData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticipantData.h; sourceTree = "<group>"; };
+		AAF080D9289C679B0063B3AD /* 2021.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2021.h; sourceTree = "<group>"; };
+		AAF0811C289C68B30063B3AD /* PacketCarTelemetryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarTelemetryData.h; sourceTree = "<group>"; };
+		AAF0811D289C68B30063B3AD /* TyreStintHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyreStintHistoryData.h; sourceTree = "<group>"; };
+		AAF0811E289C68B30063B3AD /* CarMotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarMotionData.h; sourceTree = "<group>"; };
+		AAF0811F289C68B30063B3AD /* MarshalZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarshalZone.h; sourceTree = "<group>"; };
+		AAF08120289C68B30063B3AD /* PacketFinalClassificationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketFinalClassificationData.h; sourceTree = "<group>"; };
+		AAF08121289C68B30063B3AD /* PacketLapData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketLapData.h; sourceTree = "<group>"; };
+		AAF08122289C68B30063B3AD /* PacketHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketHeader.h; sourceTree = "<group>"; };
+		AAF08123289C68B30063B3AD /* PacketCarStatusData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarStatusData.h; sourceTree = "<group>"; };
+		AAF08124289C68B30063B3AD /* PacketCarDamageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarDamageData.h; sourceTree = "<group>"; };
+		AAF08125289C68B30063B3AD /* PacketParticipantData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketParticipantData.h; sourceTree = "<group>"; };
+		AAF08126289C68B30063B3AD /* LobbyInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyInfoData.h; sourceTree = "<group>"; };
+		AAF08127289C68B30063B3AD /* FinalClassificationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalClassificationData.h; sourceTree = "<group>"; };
+		AAF08128289C68B30063B3AD /* CarTelemetryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTelemetryData.h; sourceTree = "<group>"; };
+		AAF08129289C68B30063B3AD /* PacketSessionHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketSessionHistoryData.h; sourceTree = "<group>"; };
+		AAF0812A289C68B30063B3AD /* EventDataDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDataDetails.h; sourceTree = "<group>"; };
+		AAF0812B289C68B30063B3AD /* PacketCarSetupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCarSetupData.h; sourceTree = "<group>"; };
+		AAF0812C289C68B30063B3AD /* PacketLobbyInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketLobbyInfoData.h; sourceTree = "<group>"; };
+		AAF0812D289C68B30063B3AD /* PacketEventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketEventData.h; sourceTree = "<group>"; };
+		AAF0812E289C68B30063B3AD /* CarDamageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarDamageData.h; sourceTree = "<group>"; };
+		AAF0812F289C68B30063B3AD /* LapHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapHistoryData.h; sourceTree = "<group>"; };
+		AAF08130289C68B30063B3AD /* CarStatusData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarStatusData.h; sourceTree = "<group>"; };
+		AAF08131289C68B30063B3AD /* LapData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapData.h; sourceTree = "<group>"; };
+		AAF08132289C68B30063B3AD /* WeatherForecastSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherForecastSample.h; sourceTree = "<group>"; };
+		AAF08133289C68B30063B3AD /* PacketMotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketMotionData.h; sourceTree = "<group>"; };
+		AAF08134289C68B30063B3AD /* CarSetupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarSetupData.h; sourceTree = "<group>"; };
+		AAF08135289C68B30063B3AD /* PacketSessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketSessionData.h; sourceTree = "<group>"; };
+		AAF08136289C68B30063B3AD /* ParticipantData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantData.h; sourceTree = "<group>"; };
+		AAF081FA289CFB040063B3AD /* part_one.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = part_one.h; sourceTree = "<group>"; };
+		AAF081FB289CFB380063B3AD /* part_two.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = part_two.h; sourceTree = "<group>"; };
+		AAF081FC289CFB810063B3AD /* 2022.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2022.h; sourceTree = "<group>"; };
+		AAF081FD289CFC870063B3AD /* ctypedefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ctypedefs.h; sourceTree = "<group>"; };
+		AAF08249289D09020063B3AD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,135 +298,6 @@
 			path = "maven-archiver";
 			sourceTree = "<group>";
 		};
-		AA6939162897EBD800395FB9 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				AA6939172897EBD800395FB9 /* include */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		AA6939172897EBD800395FB9 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				AA6939182897EBD800395FB9 /* PacketCarTelemetryData.h */,
-				AA6939192897EBD800395FB9 /* TyreStintHistoryData.h */,
-				AA69391A2897EBD800395FB9 /* CarMotionData.h */,
-				AA69391B2897EBD800395FB9 /* MarshalZone.h */,
-				AA69391C2897EBD800395FB9 /* PacketFinalClassificationData.h */,
-				AA69391D2897EBD800395FB9 /* PacketLapData.h */,
-				AA69391E2897EBD800395FB9 /* PacketHeader.h */,
-				AA69391F2897EBD800395FB9 /* PacketCarStatusData.h */,
-				AA6939202897EBD800395FB9 /* PacketCarDamageData.h */,
-				AA6939212897EBD800395FB9 /* PacketParticipantsData.h */,
-				AA6939222897EBD800395FB9 /* LobbyInfoData.h */,
-				AA6939232897EBD800395FB9 /* FinalClassificationData.h */,
-				AA6939242897EBD800395FB9 /* CarTelemetryData.h */,
-				AA6939252897EBD800395FB9 /* PacketSessionHistoryData.h */,
-				AA6939262897EBD800395FB9 /* EventDataDetails.h */,
-				AA6939272897EBD800395FB9 /* PacketCarSetupData.h */,
-				AA6939282897EBD800395FB9 /* PacketLobbyInfoData.h */,
-				AA6939292897EBD800395FB9 /* capi.h */,
-				AA69392A2897EBD800395FB9 /* PacketEventData.h */,
-				AA69392B2897EBD800395FB9 /* CarDamageData.h */,
-				AA69392C2897EBD800395FB9 /* LapHistoryData.h */,
-				AA69392D2897EBD800395FB9 /* CarStatusData.h */,
-				AA69392E2897EBD800395FB9 /* LapData.h */,
-				AA69392F2897EBD800395FB9 /* WeatherForecastSample.h */,
-				AA6939302897EBD800395FB9 /* PacketMotionData.h */,
-				AA6939312897EBD800395FB9 /* CarSetupData.h */,
-				AA6939322897EBD800395FB9 /* PacketSessionData.h */,
-				AA6939332897EBD800395FB9 /* ParticipantData.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		AA6939342897EBD800395FB9 /* build */ = {
-			isa = PBXGroup;
-			children = (
-				AA6939352897EBD800395FB9 /* src */,
-			);
-			path = build;
-			sourceTree = "<group>";
-		};
-		AA6939352897EBD800395FB9 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				AA6939362897EBD800395FB9 /* main */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		AA6939362897EBD800395FB9 /* main */ = {
-			isa = PBXGroup;
-			children = (
-				AA6939372897EBD800395FB9 /* java */,
-			);
-			path = main;
-			sourceTree = "<group>";
-		};
-		AA6939372897EBD800395FB9 /* java */ = {
-			isa = PBXGroup;
-			children = (
-				AA6939382897EBD800395FB9 /* f1 */,
-			);
-			path = java;
-			sourceTree = "<group>";
-		};
-		AA6939382897EBD800395FB9 /* f1 */ = {
-			isa = PBXGroup;
-			children = (
-				AA6939392897EBD800395FB9 /* specs */,
-			);
-			path = f1;
-			sourceTree = "<group>";
-		};
-		AA6939392897EBD800395FB9 /* specs */ = {
-			isa = PBXGroup;
-			children = (
-				AA69393A2897EBD800395FB9 /* datatypes */,
-			);
-			path = specs;
-			sourceTree = "<group>";
-		};
-		AA69393A2897EBD800395FB9 /* datatypes */ = {
-			isa = PBXGroup;
-			children = (
-				AA69393B2897EBD800395FB9 /* PacketMotionData.java */,
-				AA69393C2897EBD800395FB9 /* Constants$root.java */,
-				AA69393D2897EBD800395FB9 /* CarTelemetryData.java */,
-				AA69393E2897EBD800395FB9 /* MarshalZone.java */,
-				AA69393F2897EBD800395FB9 /* PacketSessionHistoryData.java */,
-				AA6939402897EBD800395FB9 /* EventDataDetails.java */,
-				AA6939412897EBD800395FB9 /* CarDamageData.java */,
-				AA6939422897EBD800395FB9 /* PacketLapData.java */,
-				AA6939432897EBD800395FB9 /* CarMotionData.java */,
-				AA6939442897EBD800395FB9 /* PacketHeader.java */,
-				AA6939452897EBD800395FB9 /* PacketCarDamageData.java */,
-				AA6939462897EBD800395FB9 /* CarSetupData.java */,
-				AA6939472897EBD800395FB9 /* PacketFinalClassificationData.java */,
-				AA6939482897EBD800395FB9 /* PacketCarTelemetryData.java */,
-				AA6939492897EBD800395FB9 /* ParticipantData.java */,
-				AA69394A2897EBD800395FB9 /* PacketSessionData.java */,
-				AA69394B2897EBD800395FB9 /* LobbyInfoData.java */,
-				AA69394C2897EBD800395FB9 /* c_api.java */,
-				AA69394D2897EBD800395FB9 /* FinalClassificationData.java */,
-				AA69394E2897EBD800395FB9 /* LapData.java */,
-				AA69394F2897EBD800395FB9 /* CarStatusData.java */,
-				AA6939502897EBD800395FB9 /* PacketCarSetupData.java */,
-				AA6939512897EBD800395FB9 /* PacketParticipantsData.java */,
-				AA6939522897EBD800395FB9 /* TyreStintHistoryData.java */,
-				AA6939532897EBD800395FB9 /* LapHistoryData.java */,
-				AA6939542897EBD800395FB9 /* WeatherForecastSample.java */,
-				AA6939552897EBD800395FB9 /* RuntimeHelper.java */,
-				AA6939562897EBD800395FB9 /* PacketEventData.java */,
-				AA6939572897EBD800395FB9 /* PacketLobbyInfoData.java */,
-				AA6939582897EBD800395FB9 /* PacketCarStatusData.java */,
-				AA6939592897EBD800395FB9 /* wait.java */,
-			);
-			path = datatypes;
-			sourceTree = "<group>";
-		};
 		AA69395C2897EBD800395FB9 /* scripts */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,13 +309,13 @@
 		AABC17C32897EAF400D65373 = {
 			isa = PBXGroup;
 			children = (
+				AAF08249289D09020063B3AD /* .gitignore */,
+				AAF080BB289C679B0063B3AD /* src */,
 				AA69395C2897EBD800395FB9 /* scripts */,
-				AA6939342897EBD800395FB9 /* build */,
 				AA69395A2897EBD800395FB9 /* LICENSE */,
 				AA69395B2897EBD800395FB9 /* Makefile */,
 				AA6939152897EBD800395FB9 /* pom.xml */,
 				AA6938D72897EBD800395FB9 /* README.md */,
-				AA6939162897EBD800395FB9 /* src */,
 				AA6938D82897EBD800395FB9 /* target */,
 				AABC17CD2897EAF400D65373 /* Products */,
 			);
@@ -486,6 +327,96 @@
 				AABC17CC2897EAF400D65373 /* src */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF080BB289C679B0063B3AD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AAF080BC289C679B0063B3AD /* include */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AAF080BC289C679B0063B3AD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AAF0811B289C68B30063B3AD /* 2021 */,
+				AAF080BD289C679B0063B3AD /* 2022 */,
+				AAF080D9289C679B0063B3AD /* 2021.h */,
+				AAF081FA289CFB040063B3AD /* part_one.h */,
+				AAF081FB289CFB380063B3AD /* part_two.h */,
+				AAF081FC289CFB810063B3AD /* 2022.h */,
+				AAF081FD289CFC870063B3AD /* ctypedefs.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AAF080BD289C679B0063B3AD /* 2022 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF080BE289C679B0063B3AD /* PacketCarTelemetryData.h */,
+				AAF080BF289C679B0063B3AD /* TyreStintHistoryData.h */,
+				AAF080C0289C679B0063B3AD /* CarMotionData.h */,
+				AAF080C1289C679B0063B3AD /* MarshalZone.h */,
+				AAF080C2289C679B0063B3AD /* PacketFinalClassificationData.h */,
+				AAF080C3289C679B0063B3AD /* PacketLapData.h */,
+				AAF080C4289C679B0063B3AD /* PacketHeader.h */,
+				AAF080C5289C679B0063B3AD /* PacketCarStatusData.h */,
+				AAF080C6289C679B0063B3AD /* PacketCarDamageData.h */,
+				AAF080C7289C679B0063B3AD /* PacketParticipantsData.h */,
+				AAF080C8289C679B0063B3AD /* LobbyInfoData.h */,
+				AAF080C9289C679B0063B3AD /* FinalClassificationData.h */,
+				AAF080CA289C679B0063B3AD /* CarTelemetryData.h */,
+				AAF080CB289C679B0063B3AD /* PacketSessionHistoryData.h */,
+				AAF080CC289C679B0063B3AD /* EventDataDetails.h */,
+				AAF080CD289C679B0063B3AD /* PacketCarSetupData.h */,
+				AAF080CE289C679B0063B3AD /* PacketLobbyInfoData.h */,
+				AAF080CF289C679B0063B3AD /* PacketEventData.h */,
+				AAF080D0289C679B0063B3AD /* CarDamageData.h */,
+				AAF080D1289C679B0063B3AD /* LapHistoryData.h */,
+				AAF080D2289C679B0063B3AD /* CarStatusData.h */,
+				AAF080D3289C679B0063B3AD /* LapData.h */,
+				AAF080D4289C679B0063B3AD /* WeatherForecastSample.h */,
+				AAF080D5289C679B0063B3AD /* PacketMotionData.h */,
+				AAF080D6289C679B0063B3AD /* CarSetupData.h */,
+				AAF080D7289C679B0063B3AD /* PacketSessionData.h */,
+				AAF080D8289C679B0063B3AD /* ParticipantData.h */,
+			);
+			path = 2022;
+			sourceTree = "<group>";
+		};
+		AAF0811B289C68B30063B3AD /* 2021 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF0811C289C68B30063B3AD /* PacketCarTelemetryData.h */,
+				AAF0811D289C68B30063B3AD /* TyreStintHistoryData.h */,
+				AAF0811E289C68B30063B3AD /* CarMotionData.h */,
+				AAF0811F289C68B30063B3AD /* MarshalZone.h */,
+				AAF08120289C68B30063B3AD /* PacketFinalClassificationData.h */,
+				AAF08121289C68B30063B3AD /* PacketLapData.h */,
+				AAF08122289C68B30063B3AD /* PacketHeader.h */,
+				AAF08123289C68B30063B3AD /* PacketCarStatusData.h */,
+				AAF08124289C68B30063B3AD /* PacketCarDamageData.h */,
+				AAF08125289C68B30063B3AD /* PacketParticipantData.h */,
+				AAF08126289C68B30063B3AD /* LobbyInfoData.h */,
+				AAF08127289C68B30063B3AD /* FinalClassificationData.h */,
+				AAF08128289C68B30063B3AD /* CarTelemetryData.h */,
+				AAF08129289C68B30063B3AD /* PacketSessionHistoryData.h */,
+				AAF0812A289C68B30063B3AD /* EventDataDetails.h */,
+				AAF0812B289C68B30063B3AD /* PacketCarSetupData.h */,
+				AAF0812C289C68B30063B3AD /* PacketLobbyInfoData.h */,
+				AAF0812D289C68B30063B3AD /* PacketEventData.h */,
+				AAF0812E289C68B30063B3AD /* CarDamageData.h */,
+				AAF0812F289C68B30063B3AD /* LapHistoryData.h */,
+				AAF08130289C68B30063B3AD /* CarStatusData.h */,
+				AAF08131289C68B30063B3AD /* LapData.h */,
+				AAF08132289C68B30063B3AD /* WeatherForecastSample.h */,
+				AAF08133289C68B30063B3AD /* PacketMotionData.h */,
+				AAF08134289C68B30063B3AD /* CarSetupData.h */,
+				AAF08135289C68B30063B3AD /* PacketSessionData.h */,
+				AAF08136289C68B30063B3AD /* ParticipantData.h */,
+			);
+			path = 2021;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -545,39 +476,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA69397B2897EBD900395FB9 /* PacketLobbyInfoData.java in Sources */,
-				AA69397C2897EBD900395FB9 /* PacketCarStatusData.java in Sources */,
-				AA6939772897EBD900395FB9 /* LapHistoryData.java in Sources */,
 				AA69397E2897EBD900395FB9 /* Makefile in Sources */,
-				AA6939732897EBD900395FB9 /* CarStatusData.java in Sources */,
-				AA6939622897EBD800395FB9 /* MarshalZone.java in Sources */,
-				AA6939702897EBD900395FB9 /* c_api.java in Sources */,
-				AA6939652897EBD900395FB9 /* CarDamageData.java in Sources */,
-				AA6939762897EBD900395FB9 /* TyreStintHistoryData.java in Sources */,
-				AA6939672897EBD900395FB9 /* CarMotionData.java in Sources */,
-				AA6939632897EBD800395FB9 /* PacketSessionHistoryData.java in Sources */,
-				AA69396A2897EBD900395FB9 /* CarSetupData.java in Sources */,
-				AA6939742897EBD900395FB9 /* PacketCarSetupData.java in Sources */,
-				AA6939722897EBD900395FB9 /* LapData.java in Sources */,
-				AA6939662897EBD900395FB9 /* PacketLapData.java in Sources */,
-				AA69397D2897EBD900395FB9 /* wait.java in Sources */,
-				AA69396C2897EBD900395FB9 /* PacketCarTelemetryData.java in Sources */,
-				AA69396B2897EBD900395FB9 /* PacketFinalClassificationData.java in Sources */,
-				AA6939792897EBD900395FB9 /* RuntimeHelper.java in Sources */,
-				AA69396F2897EBD900395FB9 /* LobbyInfoData.java in Sources */,
-				AA6939612897EBD800395FB9 /* CarTelemetryData.java in Sources */,
 				AABC17D02897EAF400D65373 /* (null) in Sources */,
-				AA6939682897EBD900395FB9 /* PacketHeader.java in Sources */,
-				AA6939782897EBD900395FB9 /* WeatherForecastSample.java in Sources */,
-				AA69396E2897EBD900395FB9 /* PacketSessionData.java in Sources */,
-				AA6939602897EBD800395FB9 /* Constants$root.java in Sources */,
-				AA6939642897EBD800395FB9 /* EventDataDetails.java in Sources */,
-				AA6939712897EBD900395FB9 /* FinalClassificationData.java in Sources */,
-				AA69396D2897EBD900395FB9 /* ParticipantData.java in Sources */,
-				AA69395F2897EBD800395FB9 /* PacketMotionData.java in Sources */,
-				AA69397A2897EBD900395FB9 /* PacketEventData.java in Sources */,
-				AA6939692897EBD900395FB9 /* PacketCarDamageData.java in Sources */,
-				AA6939752897EBD900395FB9 /* PacketParticipantsData.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,6 @@ VERSION = $(shell date +'%Y.%m.%d')
 JAVA_SOURCES_PATH = $(BUILD_DIR)/src/main/java
 
 INCLUDE_DIR = src/include
-C_API_FILE = $(INCLUDE_DIR)/capi.h
 
 UNAME_S = $(shell uname -s)
 STDLIB_INCLUDE = /usr/include
@@ -22,16 +21,21 @@ all: clean jar
 dump-stdlib:
 	jextract --source -t f1.specs.datatypes -I $(STDLIB_INCLUDE) $(STDLIB_INCLUDE)/stdlib.h $(args)
 
-java-src:
-	jextract --source -t f1.cstructs.year$(YEAR) -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR)/$(YEAR) --header-class-name c_api --output $(JAVA_SOURCES_PATH) $(args) $(C_API_FILE)
+jextracting:
+	jextract --source -t f1.cstructs.year$(year) -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR) -I $(INCLUDE_DIR)/$(year) --header-class-name c_api --output $(JAVA_SOURCES_PATH) $(args) $(INCLUDE_DIR)/$(year).h
 
-src: clean
-	$(MAKE) java-src args='--dump-includes dump.txt'
+collect-src:
+	$(MAKE) jextracting year=$(year) args='--dump-includes dump.txt'
 	$(MAKE) dump-stdlib args="--dump-includes stdlib.txt"
 	python scripts/diff.py dump.txt stdlib.txt
-	$(MAKE) java-src args="@diff.txt"
+	$(MAKE) jextracting year=$(year) args="@diff.txt"
 
-jar: src
+java-src: clean
+	$(MAKE) collect-src year=2021
+	$(MAKE) collect-src year=2022
+
+jar:
+	$(MAKE) java-src
 	mvn clean package $(MAVEN_FLAGS)
 
 deploy: src
