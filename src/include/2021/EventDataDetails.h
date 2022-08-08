@@ -36,13 +36,10 @@ struct SpeedTrap
 {
     uint8 vehicleIdx;                           // Vehicle index of the vehicle triggering speed trap
     float speed;                                // Top speed achieved in kilometres per hour
-    uint8 isOverallFastestInSession;            // Overall fastest speed in session = 1, otherwise 0
-    uint8 isDriverFastestInSession;             // Fastest speed for driver in session = 1, otherwise 0
-    uint8 fastestVehicleIdxInSession;           // Vehicle index of the vehicle that is the fastest
-                                                // in this session
-    float fastestSpeedInSession;                // Speed of the vehicle that is the fastest
-                                                // in this session
+    uint8 overallFastestInSession;              // Overall fastest speed in session = 1, otherwise 0
+    uint8 driverFastestInSession;               // Fastest speed for driver in session = 1, otherwise 0
 };
+
 
 struct StartLIghts
 {
