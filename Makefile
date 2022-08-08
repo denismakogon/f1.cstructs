@@ -38,7 +38,7 @@ jar:
 	$(MAKE) java-src
 	mvn clean package $(MAVEN_FLAGS)
 
-deploy: src
+deploy: java-src
 	mvn deploy $(MAVEN_FLAGS)
 
 clean:
