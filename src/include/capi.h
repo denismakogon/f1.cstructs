@@ -1,12 +1,18 @@
 //
-//  part_one.h
+//  2022.h
 //  src
 //
 //  Created by Denis Makogon on 05.08.2022.
 //
 
-#ifndef part_one_h
-#define part_one_h
+#ifndef _022_h
+#define _022_h
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "ctypedefs.h"
 
 #include "PacketHeader.h"
 #include "CarDamageData.h"
@@ -30,6 +36,14 @@
 #include "PacketLobbyInfoData.h"
 #include "PacketMotionData.h"
 #include "ParticipantData.h"
+#include "PacketParticipantsData.h"
+#include "WeatherForecastSample.h"
+#include "PacketSessionData.h"
+#include "TyreStintHistoryData.h"
+#include "PacketSessionHistoryData.h"
 
+#ifdef __cplusplus
+}
+#endif
 
-#endif /* part_one_h */
+#endif /* _022_h */

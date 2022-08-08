@@ -22,7 +22,7 @@ dump-stdlib:
 	jextract --source -t f1.specs.datatypes -I $(STDLIB_INCLUDE) $(STDLIB_INCLUDE)/stdlib.h $(args)
 
 jextracting:
-	jextract --source -t f1.cstructs.year$(year) -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR) -I $(INCLUDE_DIR)/$(year) --header-class-name c_api --output $(JAVA_SOURCES_PATH) $(args) $(INCLUDE_DIR)/$(year).h
+	jextract --source -t f1.cstructs.year$(year) -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR) -I $(INCLUDE_DIR)/$(year) --header-class-name c_api --output $(JAVA_SOURCES_PATH) $(args) $(INCLUDE_DIR)/capi.h
 
 collect-src:
 	$(MAKE) jextracting year=$(year) args='--dump-includes dump.txt'
