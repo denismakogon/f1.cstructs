@@ -162,6 +162,7 @@
 		AA69395A2897EBD800395FB9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AA69395B2897EBD800395FB9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		AA69395D2897EBD800395FB9 /* diff.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = diff.py; sourceTree = "<group>"; };
+		AA8A5F3F28A129A30033C2A8 /* PacketParticipantsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketParticipantsData.h; sourceTree = "<group>"; };
 		AABC17CC2897EAF400D65373 /* src */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = src; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF080BE289C679B0063B3AD /* PacketCarTelemetryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketCarTelemetryData.h; sourceTree = "<group>"; };
 		AAF080BF289C679B0063B3AD /* TyreStintHistoryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyreStintHistoryData.h; sourceTree = "<group>"; };
@@ -582,6 +583,7 @@
 				AAF08134289C68B30063B3AD /* CarSetupData.h */,
 				AAF08135289C68B30063B3AD /* PacketSessionData.h */,
 				AAF08136289C68B30063B3AD /* ParticipantData.h */,
+				AA8A5F3F28A129A30033C2A8 /* PacketParticipantsData.h */,
 			);
 			path = 2021;
 			sourceTree = "<group>";
