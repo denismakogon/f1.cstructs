@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA69395E2897EBD800395FB9 /* f1.game.2022.07.31.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6939142897EBD800395FB9 /* f1.game.2022.07.31.jar */; };
 		AA69397E2897EBD900395FB9 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = AA69395B2897EBD800395FB9 /* Makefile */; };
+		AA8A5F4228A26F5B0033C2A8 /* Constants$root.java in Sources */ = {isa = PBXBuildFile; fileRef = AA8A5F4128A26F5B0033C2A8 /* Constants$root.java */; };
 		AABC17D02897EAF400D65373 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		AAF082A5289D18800063B3AD /* PacketMotionData.java in Sources */ = {isa = PBXBuildFile; fileRef = AAF08251289D18800063B3AD /* PacketMotionData.java */; };
 		AAF082A6289D18800063B3AD /* StopGoPenaltyServed.java in Sources */ = {isa = PBXBuildFile; fileRef = AAF08252289D18800063B3AD /* StopGoPenaltyServed.java */; };
@@ -163,6 +164,7 @@
 		AA69395B2897EBD800395FB9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		AA69395D2897EBD800395FB9 /* diff.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = diff.py; sourceTree = "<group>"; };
 		AA8A5F3F28A129A30033C2A8 /* PacketParticipantsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketParticipantsData.h; sourceTree = "<group>"; };
+		AA8A5F4128A26F5B0033C2A8 /* Constants$root.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Constants$root.java; sourceTree = "<group>"; };
 		AABC17CC2897EAF400D65373 /* src */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = src; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF080BE289C679B0063B3AD /* PacketCarTelemetryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketCarTelemetryData.h; sourceTree = "<group>"; };
 		AAF080BF289C679B0063B3AD /* TyreStintHistoryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyreStintHistoryData.h; sourceTree = "<group>"; };
@@ -497,6 +499,7 @@
 		AAF080BB289C679B0063B3AD /* src */ = {
 			isa = PBXGroup;
 			children = (
+				AA8A5F4128A26F5B0033C2A8 /* Constants$root.java */,
 				AAF080BC289C679B0063B3AD /* include */,
 			);
 			path = src;
@@ -847,6 +850,7 @@
 				AAF082E4289D18800063B3AD /* PacketCarTelemetryData.java in Sources */,
 				AAF082EA289D18800063B3AD /* FinalClassificationData.java in Sources */,
 				AAF082CD289D18800063B3AD /* wait.java in Sources */,
+				AA8A5F4228A26F5B0033C2A8 /* Constants$root.java in Sources */,
 				AAF082B5289D18800063B3AD /* PacketHeader.java in Sources */,
 				AAF082F3289D18800063B3AD /* PacketEventData.java in Sources */,
 				AAF082A5289D18800063B3AD /* PacketMotionData.java in Sources */,

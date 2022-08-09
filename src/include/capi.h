@@ -12,6 +12,8 @@
 extern "C" {
 #endif
 
+#pragma pack(1)
+
 #include "ctypedefs.h"
 
 #include "PacketHeader.h"

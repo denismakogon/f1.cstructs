@@ -18,6 +18,9 @@ MAVEN_FLAGS = -Dversion=$(VERSION) -Dsrc.dir=$(JAVA_SOURCES_PATH)
 
 all: clean jar
 
+patch-root:
+	sed 's/PACK/f1.cstructs.year$(year)/g' 'src/Constants$$root.java' > $(JAVA_SOURCES_PATH)/$(shell echo 'f1.cstructs.year$(year)' | tr '.' '/')/Constants\$$root.java
+
 dump-stdlib:
 	jextract --source -t f1.specs.datatypes -I $(STDLIB_INCLUDE) $(STDLIB_INCLUDE)/stdlib.h $(args)
 
@@ -29,6 +32,7 @@ collect-src:
 	$(MAKE) dump-stdlib args="--dump-includes stdlib.txt"
 	python scripts/diff.py dump.txt stdlib.txt
 	$(MAKE) jextracting year=$(year) args="@diff.txt"
+	$(MAKE) patch-root year=$(year)
 
 java-src: clean
 	$(MAKE) collect-src year=2021
