@@ -15,8 +15,12 @@ ifeq ($(UNAME_S), Darwin)
 endif
 
 MAVEN_FLAGS = -Dversion=$(VERSION) -Dsrc.dir=$(JAVA_SOURCES_PATH)
+MVN = mvn
 
 all: clean jar
+
+patch-pom:
+	sed 's/VVV/$(VERSION)/g' pom.xml.tmplt > pom.xml
 
 patch-root:
 	sed 's/PACK/f1.cstructs.year$(year)/g' 'src/Constants$$root.java' > $(JAVA_SOURCES_PATH)/$(shell echo 'f1.cstructs.year$(year)' | tr '.' '/')/Constants\$$root.java
@@ -38,14 +42,13 @@ java-src: clean
 	$(MAKE) collect-src year=2021
 	$(MAKE) collect-src year=2022
 
-jar:
-	$(MAKE) java-src
-	mvn clean package $(MAVEN_FLAGS)
+jar: java-src patch-pom
+	$(MVN) clean package $(MAVEN_FLAGS)
 
-deploy: java-src
-	mvn deploy $(MAVEN_FLAGS)
+deploy: java-src patch-pom
+	$(MVN) deploy $(MAVEN_FLAGS)
 
-clean:
+clean: patch-pom
 	rm -fr *.txt
 	rm -fr $(BUILD_DIR)
-	mvn clean $(MAVEN_FLAGS)
+	$(MVN) clean $(MAVEN_FLAGS)
