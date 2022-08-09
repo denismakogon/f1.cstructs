@@ -159,7 +159,7 @@
 		AA6939112897EBD800395FB9 /* createdFiles.lst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = createdFiles.lst; sourceTree = "<group>"; };
 		AA6939132897EBD800395FB9 /* pom.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pom.properties; sourceTree = "<group>"; };
 		AA6939142897EBD800395FB9 /* f1.game.2022.07.31.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = f1.game.2022.07.31.jar; sourceTree = "<group>"; };
-		AA6939152897EBD800395FB9 /* pom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pom.xml; sourceTree = "<group>"; };
+		AA6939152897EBD800395FB9 /* pom.xml.tmplt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pom.xml.tmplt; sourceTree = "<group>"; };
 		AA69395A2897EBD800395FB9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AA69395B2897EBD800395FB9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		AA69395D2897EBD800395FB9 /* diff.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = diff.py; sourceTree = "<group>"; };
@@ -481,7 +481,7 @@
 				AA69395C2897EBD800395FB9 /* scripts */,
 				AA69395A2897EBD800395FB9 /* LICENSE */,
 				AA69395B2897EBD800395FB9 /* Makefile */,
-				AA6939152897EBD800395FB9 /* pom.xml */,
+				AA6939152897EBD800395FB9 /* pom.xml.tmplt */,
 				AA6938D72897EBD800395FB9 /* README.md */,
 				AA6938D82897EBD800395FB9 /* target */,
 				AABC17CD2897EAF400D65373 /* Products */,

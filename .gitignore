@@ -1,6 +1,6 @@
 build/
 target/
-pom-*.xml
 *.jar
 *.txt
 clang.f1.game.xcodeproj/project.xcworkspace/xcuserdata
+pom.xml
