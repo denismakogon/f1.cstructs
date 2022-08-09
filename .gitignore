@@ -3,4 +3,3 @@ target/
 *.jar
 *.txt
 clang.f1.game.xcodeproj/project.xcworkspace/xcuserdata
-pom.xml
