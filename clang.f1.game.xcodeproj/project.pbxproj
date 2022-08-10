@@ -165,6 +165,9 @@
 		AA69395D2897EBD800395FB9 /* diff.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = diff.py; sourceTree = "<group>"; };
 		AA8A5F3F28A129A30033C2A8 /* PacketParticipantsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketParticipantsData.h; sourceTree = "<group>"; };
 		AA8A5F4128A26F5B0033C2A8 /* Constants$root.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Constants$root.java; sourceTree = "<group>"; };
+		AAA803FB28A30565009DA9CB /* pom.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = pom.xml; sourceTree = "<group>"; };
+		AAA803FE28A39CD8009DA9CB /* merge.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = merge.yml; sourceTree = "<group>"; };
+		AAA803FF28A39CD8009DA9CB /* build.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = build.yml; sourceTree = "<group>"; };
 		AABC17CC2897EAF400D65373 /* src */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = src; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF080BE289C679B0063B3AD /* PacketCarTelemetryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketCarTelemetryData.h; sourceTree = "<group>"; };
 		AAF080BF289C679B0063B3AD /* TyreStintHistoryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TyreStintHistoryData.h; sourceTree = "<group>"; };
@@ -472,9 +475,28 @@
 			path = scripts;
 			sourceTree = "<group>";
 		};
+		AAA803FC28A39CD8009DA9CB /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				AAA803FD28A39CD8009DA9CB /* workflows */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		AAA803FD28A39CD8009DA9CB /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				AAA803FE28A39CD8009DA9CB /* merge.yml */,
+				AAA803FF28A39CD8009DA9CB /* build.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
 		AABC17C32897EAF400D65373 = {
 			isa = PBXGroup;
 			children = (
+				AAA803FC28A39CD8009DA9CB /* .github */,
+				AAA803FB28A30565009DA9CB /* pom.xml */,
 				AAF0824A289D18800063B3AD /* build */,
 				AAF08249289D09020063B3AD /* .gitignore */,
 				AAF080BB289C679B0063B3AD /* src */,
