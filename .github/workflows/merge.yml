@@ -51,7 +51,9 @@ jobs:
       - name: upload platform-specific JAR to artifacts
         uses: actions/upload-artifact@v3
         with:
-          path: target/*.jar
+          path: |
+             target/*.jar
+             build
           if-no-files-found: error
 
   access-jars:
@@ -81,5 +83,6 @@ jobs:
           prerelease: false
           title: f1.game C API ${{ steps.version.outputs.version }}
           files: |
+            build/
             LICENSE
             target/jars/artifact/*.jar
