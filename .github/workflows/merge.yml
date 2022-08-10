@@ -53,7 +53,6 @@ jobs:
         with:
           path: |
              target/*.jar
-             build
           if-no-files-found: error
 
   access-jars:
@@ -83,6 +82,5 @@ jobs:
           prerelease: false
           title: f1.game C API ${{ steps.version.outputs.version }}
           files: |
-            build/
             LICENSE
             target/jars/artifact/*.jar
