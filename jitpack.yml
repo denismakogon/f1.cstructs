@@ -1,0 +1,9 @@
+before_install:
+   - sdk install java 19.ea.35-open
+install:
+- version=$(date +'%Y.%m.%d')
+- JAR_NAME="f1.cstructs.$version.jar"
+- FILE="jars/$JAR_NAME"
+- mkdir jars/
+- curl -L -o jars/f1.cstructs.$version.jar https://github.com/denismakogon/f1.cstructs/releases/download/$version/$JAR_NAME
+- mvn install:install-file -Dfile=$FILE -DgroupId=com.github.denismakogon -DartifactId=f1.cstructs -Dversion=$version -Dpackaging=jar -DgeneratePom=true
