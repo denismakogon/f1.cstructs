@@ -29,7 +29,7 @@ struct Penalty
     uint8 otherVehicleIdx;                      // Vehicle index of the other car involved
     uint8 time;                                 // Time gained, or time spent doing action in seconds
     uint8 lapNum;                               // Lap the penalty occurred on
-    uint8 placesGained;                         // Number of places gained by this
+    // uint8 placesGained;                         // Number of places gained by this
 };
 
 struct SpeedTrap
