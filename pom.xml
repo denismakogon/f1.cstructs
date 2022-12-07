@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>f1.cstructs</artifactId>
     <groupId>clang</groupId>
-    <version>2022.08.13</version>
+    <version>${revision}</version>
     <description>f1.cstructs</description>
     <url>https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274</url>
 
@@ -16,6 +16,7 @@
     </licenses>
 
     <properties>
+        <revision>latest</revision>
         <src.dir>build/src/main/java</src.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>19</maven.compiler.source>
