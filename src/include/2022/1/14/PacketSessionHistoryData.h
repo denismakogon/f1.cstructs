@@ -1,6 +1,6 @@
 struct PacketSessionHistoryData
 {
-    struct PacketHeader  m_header;                          // Header
+    struct PacketHeader         m_header;                   // Header
 
     uint8                       m_carIdx;                   // Index of the car this lap data relates to
     uint8                       m_numLaps;                  // Num laps in the data (including current partial lap)
