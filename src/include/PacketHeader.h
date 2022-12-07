@@ -1,3 +1,5 @@
+# include "ctypedefs.h"
+
 struct PacketHeader
 {
     uint16    m_packetFormat;            // 2022
