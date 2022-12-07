@@ -56,8 +56,8 @@ java-src: clean
 jar: java-src
 	$(MVN) clean package $(MAVEN_FLAGS)
 
-deploy: java-src
-	$(MVN) deploy $(MAVEN_FLAGS)
+jar-src: jar
+	$(MVN) source:jar $(MAVEN_FLAGS)
 
 clean:
 	rm -fr *.txt

@@ -46,4 +46,4 @@ jobs:
         shell: bash
         run: |
           export PATH=${PATH}:/tmp/jextract/bin
-          make jar
+          make jar-src

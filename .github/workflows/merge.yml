@@ -49,9 +49,7 @@ jobs:
       - name: Publish package
         run: |
           export PATH=${PATH}:/tmp/jextract/bin
-          make jar
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          make jar-src
 
       - name: 'make release'
         uses: marvinpinto/action-automatic-releases@latest
