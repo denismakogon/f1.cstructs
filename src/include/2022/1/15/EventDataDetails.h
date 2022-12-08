@@ -29,7 +29,6 @@ struct Penalty
     uint8 otherVehicleIdx;                      // Vehicle index of the other car involved
     uint8 time;                                 // Time gained, or time spent doing action in seconds
     uint8 lapNum;                               // Lap the penalty occurred on
-    uint8 placesGained;                         // Number of places gained by this
 };
 
 struct SpeedTrap
@@ -38,8 +37,6 @@ struct SpeedTrap
     float speed;                                // Top speed achieved in kilometres per hour
     uint8 isOverallFastestInSession;            // Overall fastest speed in session = 1, otherwise 0
     uint8 isDriverFastestInSession;             // Fastest speed for driver in session = 1, otherwise 0
-    uint8 fastestVehicleIdxInSession;           // Vehicle index of the vehicle that is the fastest
-                                                // in this session
     float fastestSpeedInSession;                // Speed of the vehicle that is the fastest
                                                 // in this session
 };
