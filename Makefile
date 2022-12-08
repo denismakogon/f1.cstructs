@@ -47,6 +47,7 @@ java-src: clean
 	$(MAKE) collect-packets year=2021 major_version=1 minor_version=17
 	$(MAKE) collect-packets year=2021 major_version=1 minor_version=18
 	$(MAKE) collect-packets year=2021 major_version=1 minor_version=19
+	$(MAKE) collect-packets year=2021 major_version=1 minor_version=0
 	
 	$(MAKE) collect-packets year=2022 major_version=1 minor_version=8
 	$(MAKE) collect-packets year=2022 major_version=1 minor_version=9
