@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: 'Download jextract'
         id: jextract
-        uses: oracle-actions/setup-java@v1.1.1
+        uses: oracle-actions/setup-java@v1
         with:
           install: false
           uri: https://download.java.net/java/early_access/jextract/2/openjdk-19-jextract+2-3_${{ matrix.TARGET }}-x64_bin.tar.gz
@@ -31,7 +31,7 @@ jobs:
 
       - name: 'Download JDK 19'
         id: jdk_19
-        uses: oracle-actions/setup-java@v1.1.1
+        uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
           release: 19
@@ -46,22 +46,4 @@ jobs:
         shell: bash
         run: |
           export PATH=${PATH}:/tmp/jextract/bin
-          make jar
-
-      - name: upload platform-specific JAR to artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          path: target/*.jar
-          if-no-files-found: error
-
-  access-jars:
-    runs-on: ubuntu-latest
-    needs: build-and-test
-    steps:
-      - name: download JARs
-        uses: actions/download-artifact@v3
-        with:
-          path: target/jars
-      - name: test presence
-        run: |
-          ls -lah target/jars/artifact
+          make jar-src

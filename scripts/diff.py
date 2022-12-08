@@ -13,7 +13,10 @@ def write_to_file(filename, lines):
 
 
 def filter_comments(lines):
-    return set([line for line in lines if not line.startswith("####")])
+    return set([line for line in lines if not (
+        line.startswith("####") or 
+        line.startswith("--include-struct PacketHeader")
+    )])
 
 
 def main():

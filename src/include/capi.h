@@ -1,12 +1,12 @@
 //
-//  2022.h
+//  capi.h
 //  src
 //
 //  Created by Denis Makogon on 05.08.2022.
 //
 
-#ifndef _022_h
-#define _022_h
+#ifndef _capi_h
+#define _capi_h
 
 #ifdef __cplusplus
 extern "C" {
@@ -17,6 +17,7 @@ extern "C" {
 #include "ctypedefs.h"
 
 #include "PacketHeader.h"
+
 #include "CarDamageData.h"
 #include "CarMotionData.h"
 #include "CarSetupData.h"
@@ -48,4 +49,4 @@ extern "C" {
 }
 #endif
 
-#endif /* _022_h */
+#endif /* _capi_h */
