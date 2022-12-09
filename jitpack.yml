@@ -3,11 +3,11 @@ before_install:
 install:
 - version=$(date +'%Y.%m.%d')
 - JAR_NAME="f1.cstructs.$version.jar"
-- JAR_SRC_NAME="f1.cstructs.$version-sources.jar"
+# - JAR_SRC_NAME="f1.cstructs.$version-sources.jar"
 - JAR_FILE="jars/$JAR_NAME"
-- JAR_SRC_FILE="jars/$JAR_SRC_NAME"
+# - JAR_SRC_FILE="jars/$JAR_SRC_NAME"
 - mkdir jars/
 - curl -L -o jars/$JAR_NAME https://github.com/denismakogon/f1.cstructs/releases/download/$version/$JAR_NAME
-- curl -L -o jars/$JAR_SRC_NAME https://github.com/denismakogon/f1.cstructs/releases/download/$version/$JAR_SRC_NAME
+# - curl -L -o jars/$JAR_SRC_NAME https://github.com/denismakogon/f1.cstructs/releases/download/$version/$JAR_SRC_NAME
 - mvn install:install-file -Dfile=$JAR_FILE -DgroupId=com.github.denismakogon -DartifactId=f1.cstructs -Dversion=$version -Dpackaging=jar -DgeneratePom=true
-- mvn install:install-file -Dfile=$JAR_SRC_FILE -DgroupId=com.github.denismakogon -DartifactId=f1.cstructs -Dversion=$version -Dpackaging=jar -DgeneratePom=true
+# - mvn install:install-file -Dfile=$JAR_SRC_FILE -DgroupId=com.github.denismakogon -DartifactId=f1.cstructs -Dversion=$version -Dpackaging=jar -DgeneratePom=true
