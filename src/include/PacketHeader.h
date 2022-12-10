@@ -1,3 +1,5 @@
+#pragma pack(1)
+
 # include "ctypedefs.h"
 
 struct PacketHeader
