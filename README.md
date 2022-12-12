@@ -2,7 +2,7 @@
 
 The purpose of this project is to introduce F1 C structs to Java ecosystem using OpenJDK Project Panama.
 
-C Structs and Java library based on (official F1 sumulator data packets)[https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274]
+C Structs and Java library based on [official F1 sumulator data packets](https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274)
 
 ## How to use published Java package
 
