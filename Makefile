@@ -35,11 +35,15 @@ collect-packet-header:
 	$(MAKE) jextracting-packet-header args='--include-struct PacketHeader'
 	$(MAKE) patch-root package=f1.cstructs
 
-collect-packets:
+generate-exports-dump:
 	$(MAKE) jextracting year=$(year) major_version=$(major_version) minor_version=$(minor_version) args='$(include_arg) --dump-includes dump.txt'
 	$(MAKE) dump-stdlib args="--dump-includes stdlib.txt"
 	python3 scripts/diff.py dump.txt stdlib.txt
-	$(MAKE) jextracting year=$(year) major_version=$(major_version) minor_version=$(minor_version) args="$(include_arg) @diff.txt"
+	mv dump.txt $(INCLUDE_DIR)/$(year)/$(major)/$(minor)/exports.txt
+	rm -fr stdlib.txt
+
+collect-packets:
+	$(MAKE) jextracting year=$(year) major_version=$(major_version) minor_version=$(minor_version) args="$(include_arg) @$(INCLUDE_DIR)/$(year)/$(major_version)/$(minor_version)/exports.txt"
 	$(MAKE) patch-root package=f1.cstructs.year$(year).version$(major_version)_$(minor_version)
 	rm -fr *.txt
 

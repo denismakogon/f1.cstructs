@@ -1,5 +1,6 @@
 target/
 *.jar
-*.txt
-clang.f1.game.xcodeproj/project.xcworkspace/xcuserdata
+diff.txt
+dump.txt
+stdlib.txt
 build
