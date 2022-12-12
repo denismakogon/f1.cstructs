@@ -36,16 +36,16 @@ collect-packet-header:
 	$(MAKE) patch-root package=f1.cstructs
 
 collect-packets:
-	$(MAKE) jextracting year=$(year) major_version=$(major_version) minor_version=$(minor_version) args='--dump-includes dump.txt'
+	$(MAKE) jextracting year=$(year) major_version=$(major_version) minor_version=$(minor_version) args='$(include_arg) --dump-includes dump.txt'
 	$(MAKE) dump-stdlib args="--dump-includes stdlib.txt"
 	python3 scripts/diff.py dump.txt stdlib.txt
-	$(MAKE) jextracting year=$(year) major_version=$(major_version) minor_version=$(minor_version) args="@diff.txt"
+	$(MAKE) jextracting year=$(year) major_version=$(major_version) minor_version=$(minor_version) args="$(include_arg) @diff.txt"
 	$(MAKE) patch-root package=f1.cstructs.year$(year).version$(major_version)_$(minor_version)
 	rm -fr *.txt
 
 java-src: clean
 	$(MAKE) collect-packets year=2021 major_version=1 minor_version=17
-	$(MAKE) collect-packets year=2021 major_version=1 minor_version=19
+	$(MAKE) collect-packets year=2021 major_version=1 minor_version=19 include_arg="-I $(INCLUDE_DIR)/2021/1/17"
 	
 	$(MAKE) collect-packets year=2022 major_version=1 minor_version=8
 	$(MAKE) collect-packets year=2022 major_version=1 minor_version=9
