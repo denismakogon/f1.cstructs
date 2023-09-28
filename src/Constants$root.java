@@ -9,13 +9,13 @@ import java.lang.foreign.*;
 import static java.lang.foreign.ValueLayout.*;
 public class Constants$root {
 
-    static final  OfBoolean C_BOOL$LAYOUT = JAVA_BOOLEAN.withBitAlignment(8);
-    static final  OfByte C_CHAR$LAYOUT = JAVA_BYTE.withBitAlignment(8);
-    static final  OfShort C_SHORT$LAYOUT = JAVA_SHORT.withBitAlignment(8);
-    static final  OfInt C_INT$LAYOUT = JAVA_INT.withBitAlignment(8);
-    static final  OfLong C_LONG$LAYOUT = JAVA_LONG.withBitAlignment(8);
-    static final  OfLong C_LONG_LONG$LAYOUT = JAVA_LONG.withBitAlignment(8);
-    static final  OfFloat C_FLOAT$LAYOUT = JAVA_FLOAT.withBitAlignment(8);
-    static final  OfDouble C_DOUBLE$LAYOUT = JAVA_DOUBLE.withBitAlignment(8);
-    static final  OfAddress C_POINTER$LAYOUT = ADDRESS.withBitAlignment(8);
+    static final  OfBoolean C_BOOL$LAYOUT = JAVA_BOOLEAN.withByteAlignment(1);
+    static final  OfByte C_CHAR$LAYOUT = JAVA_BYTE.withByteAlignment(8);
+    static final  OfShort C_SHORT$LAYOUT = JAVA_SHORT.withByteAlignment(8);
+    static final  OfInt C_INT$LAYOUT = JAVA_INT.withByteAlignment(8);
+    static final  OfLong C_LONG$LAYOUT = JAVA_LONG.withByteAlignment(8);
+    static final  OfLong C_LONG_LONG$LAYOUT = JAVA_LONG.withByteAlignment(8);
+    static final  OfFloat C_FLOAT$LAYOUT = JAVA_FLOAT.withByteAlignment(8);
+    static final  OfDouble C_DOUBLE$LAYOUT = JAVA_DOUBLE.withByteAlignment(8);
+    static final  AddressLayout C_POINTER$LAYOUT = ADDRESS.withByteAlignment(8);
 }
