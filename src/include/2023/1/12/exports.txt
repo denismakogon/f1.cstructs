@@ -1,0 +1,129 @@
+#### Extracted from: src/include/2023/1/12/CarDamageData.h
+
+--include-struct CarDamageData   # header: src/include/2023/1/12/CarDamageData.h
+
+#### Extracted from: src/include/2023/1/12/CarMotionData.h
+
+--include-struct CarMotionData   # header: src/include/2023/1/12/CarMotionData.h
+
+#### Extracted from: src/include/2023/1/12/CarSetupData.h
+
+--include-struct CarSetupData   # header: src/include/2023/1/12/CarSetupData.h
+
+#### Extracted from: src/include/2023/1/12/CarStatusData.h
+
+--include-struct CarStatusData   # header: src/include/2023/1/12/CarStatusData.h
+
+#### Extracted from: src/include/2023/1/12/CarTelemetryData.h
+
+--include-struct CarTelemetryData   # header: src/include/2023/1/12/CarTelemetryData.h
+
+#### Extracted from: src/include/2023/1/12/EventDataDetails.h
+
+--include-union EventDataDetails    # header: src/include/2023/1/12/EventDataDetails.h
+
+#### Extracted from: src/include/2023/1/12/FinalClassificationData.h
+
+--include-struct FinalClassificationData   # header: src/include/2023/1/12/FinalClassificationData.h
+
+#### Extracted from: src/include/2023/1/12/LapData.h
+
+--include-struct LapData   # header: src/include/2023/1/12/LapData.h
+
+#### Extracted from: src/include/2023/1/12/LapHistoryData.h
+
+--include-struct LapHistoryData   # header: src/include/2023/1/12/LapHistoryData.h
+
+#### Extracted from: src/include/2023/1/12/LobbyInfoData.h
+
+--include-struct LobbyInfoData   # header: src/include/2023/1/12/LobbyInfoData.h
+
+#### Extracted from: src/include/2023/1/12/MarshalZone.h
+
+--include-struct MarshalZone   # header: src/include/2023/1/12/MarshalZone.h
+
+#### Extracted from: src/include/2023/1/12/PacketCarDamageData.h
+
+--include-struct PacketCarDamageData   # header: src/include/2023/1/12/PacketCarDamageData.h
+
+#### Extracted from: src/include/2023/1/12/PacketCarSetupData.h
+
+--include-struct PacketCarSetupData   # header: src/include/2023/1/12/PacketCarSetupData.h
+
+#### Extracted from: src/include/2023/1/12/PacketCarStatusData.h
+
+--include-struct PacketCarStatusData   # header: src/include/2023/1/12/PacketCarStatusData.h
+
+#### Extracted from: src/include/2023/1/12/PacketCarTelemetryData.h
+
+--include-struct PacketCarTelemetryData   # header: src/include/2023/1/12/PacketCarTelemetryData.h
+
+#### Extracted from: src/include/2023/1/12/PacketEventData.h
+
+--include-struct PacketEventData   # header: src/include/2023/1/12/PacketEventData.h
+
+#### Extracted from: src/include/2023/1/12/PacketFinalClassificationData.h
+
+--include-struct PacketFinalClassificationData   # header: src/include/2023/1/12/PacketFinalClassificationData.h
+
+#### Extracted from: src/include/2023/1/12/PacketHeader.h
+
+--include-struct PacketHeader   # header: src/include/2023/1/12/PacketHeader.h
+
+#### Extracted from: src/include/2023/1/12/PacketLapData.h
+
+--include-struct PacketLapData   # header: src/include/2023/1/12/PacketLapData.h
+
+#### Extracted from: src/include/2023/1/12/PacketLobbyInfoData.h
+
+--include-struct PacketLobbyInfoData   # header: src/include/2023/1/12/PacketLobbyInfoData.h
+
+#### Extracted from: src/include/2023/1/12/PacketMotionData.h
+
+--include-struct PacketMotionData   # header: src/include/2023/1/12/PacketMotionData.h
+
+#### Extracted from: src/include/2023/1/12/PacketMotionExData.h
+
+--include-struct PacketMotionExData   # header: src/include/2023/1/12/PacketMotionExData.h
+
+#### Extracted from: src/include/2023/1/12/PacketParticipantsData.h
+
+--include-struct PacketParticipantsData   # header: src/include/2023/1/12/PacketParticipantsData.h
+
+#### Extracted from: src/include/2023/1/12/PacketSessionData.h
+
+--include-struct PacketSessionData   # header: src/include/2023/1/12/PacketSessionData.h
+
+#### Extracted from: src/include/2023/1/12/PacketSessionHistoryData.h
+
+--include-struct PacketSessionHistoryData   # header: src/include/2023/1/12/PacketSessionHistoryData.h
+
+#### Extracted from: src/include/2023/1/12/PacketTyreSetsData.h
+
+--include-struct PacketTyreSetsData   # header: src/include/2023/1/12/PacketTyreSetsData.h
+
+#### Extracted from: src/include/2023/1/12/ParticipantData.h
+
+--include-struct ParticipantData   # header: src/include/2023/1/12/ParticipantData.h
+
+#### Extracted from: src/include/2023/1/12/TyreSetData.h
+
+--include-struct TyreSetData   # header: src/include/2023/1/12/TyreSetData.h
+
+#### Extracted from: src/include/2023/1/12/TyreStintHistoryData.h
+
+--include-struct TyreStintHistoryData   # header: src/include/2023/1/12/TyreStintHistoryData.h
+
+#### Extracted from: src/include/2023/1/12/WeatherForecastSample.h
+
+--include-struct WeatherForecastSample   # header: src/include/2023/1/12/WeatherForecastSample.h
+
+#### Extracted from: src/include/ctypedefs.h
+
+--include-typedef int16   # header: src/include/ctypedefs.h
+--include-typedef int64   # header: src/include/ctypedefs.h
+--include-typedef int8    # header: src/include/ctypedefs.h
+--include-typedef uint16  # header: src/include/ctypedefs.h
+--include-typedef uint32  # header: src/include/ctypedefs.h
+--include-typedef uint64  # header: src/include/ctypedefs.h
+--include-typedef uint8   # header: src/include/ctypedefs.h
