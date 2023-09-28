@@ -1,7 +1,7 @@
 before_install:
    - sdk install java 21-open
 install:
-- version=$(date +'%Y.%m.%d-%H%M')
+- version=$(date +'%Y.%m.%d')
 - JAR_NAME="f1.cstructs.$version.jar"
 # - JAR_SRC_NAME="f1.cstructs.$version-sources.jar"
 - JAR_FILE="jars/$JAR_NAME"
