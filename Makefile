@@ -3,7 +3,7 @@ LIB = f1.cstructs
 BUILD_DIR = build
 
 YEAR = $(shell date +'%Y')
-VERSION = $(shell date +'%Y.%m.%d')
+VERSION = $(shell date +'%Y.%m.%d-%H%M')
 JAVA_SOURCES_PATH = $(BUILD_DIR)/src/main/java
 
 INCLUDE_DIR = src/include
