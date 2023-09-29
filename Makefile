@@ -39,7 +39,7 @@ generate-exports-dump:
 	$(MAKE) jextracting year=$(year) major_version=$(major_version) minor_version=$(minor_version) args='$(include_arg) --dump-includes dump.txt'
 	$(MAKE) dump-stdlib args="--dump-includes stdlib.txt"
 	python3 scripts/diff.py dump.txt stdlib.txt
-	mv dump.txt $(INCLUDE_DIR)/$(year)/$(major)/$(minor)/exports.txt
+	mv diff.txt $(INCLUDE_DIR)/$(year)/$(major_version)/$(minor_version)/exports.txt
 	rm -fr stdlib.txt
 
 collect-packets:
@@ -54,6 +54,8 @@ java-src: clean
 	$(MAKE) collect-packets year=2022 major_version=1 minor_version=8
 	$(MAKE) collect-packets year=2022 major_version=1 minor_version=9
 	$(MAKE) collect-packets year=2022 major_version=1 minor_version=12
+
+	$(MAKE) collect-packets year=2023 major_version=1 minor_version=12 include_arg="-I $(INCLUDE_DIR)/2022/1/8"
 
 	$(MAKE) collect-packet-header
 
