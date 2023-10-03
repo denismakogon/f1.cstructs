@@ -29,10 +29,10 @@ jextracting:
 	jextract --source -t f1.cstructs.year$(year).version$(major_version)_$(minor_version) -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR) -I $(INCLUDE_DIR)/$(year)/$(major_version)/$(minor_version) --header-class-name capi --output $(JAVA_SOURCES_PATH) $(args) $(INCLUDE_DIR)/$(year)/$(major_version)/$(minor_version)/capi.h
 
 jextracting-packet-header:
-	jextract --source -t f1.cstructs -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR) --output $(JAVA_SOURCES_PATH) $(args) $(INCLUDE_DIR)/PacketHeader.h
+	jextract --source -t f1.cstructs -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR) --output $(JAVA_SOURCES_PATH) $(args) $(INCLUDE_DIR)/BasePacketHeader.h
 
 collect-packet-header:
-	$(MAKE) jextracting-packet-header args='--include-struct PacketHeader'
+	$(MAKE) jextracting-packet-header args='--include-struct BasePacketHeader'
 	$(MAKE) patch-root package=f1.cstructs
 
 generate-exports-dump:
