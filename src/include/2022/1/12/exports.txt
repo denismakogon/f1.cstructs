@@ -19,3 +19,4 @@
 --include-function wait        # header: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h
 --include-typedef uint8   # header: src/include/ctypedefs.h
 --include-struct PacketEventData   # header: src/include/2022/1/12/PacketEventData.h
+--include-struct PacketHeader   # header: src/include/2022/1/12/PacketHeader.h

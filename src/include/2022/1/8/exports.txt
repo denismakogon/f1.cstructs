@@ -43,3 +43,4 @@
 --include-struct LobbyInfoData   # header: src/include/2022/1/8/LobbyInfoData.h
 --include-struct PacketSessionHistoryData   # header: src/include/2022/1/8/PacketSessionHistoryData.h
 --include-struct PacketCarSetupData   # header: src/include/2022/1/8/PacketCarSetupData.h
+--include-struct PacketHeader   # header: src/include/2022/1/8/PacketHeader.h
