@@ -1,4 +1,4 @@
-# F1 2021 | 2022 (v1.10 or greater) simulator telemetry C structs API
+# F1 2021 | 2022 (v1.10 or greater) | 2023 (v1.12 or greater) simulator telemetry C structs API
 
 The purpose of this project is to introduce F1 C structs to Java ecosystem using OpenJDK Project Panama.
 
@@ -20,7 +20,7 @@ First, add the corresponding dependency to Maven:
         <dependency>
             <groupId>com.github.denismakogon</groupId>
             <artifactId>f1.cstructs</artifactId>
-            <version>2022.09.20</version> <!-- note that this version corresponds to project release versions -->
+            <version>2023.09.29-12</version> <!-- note that this version corresponds to project release versions -->
         </dependency>
     </dependencies>
 
@@ -31,15 +31,14 @@ Once it's installed, you can do the following:
 import f1.cstructs.PacketHeader;
 
 var bytes = new byte[] {....};
-var state = SegmentAllocator.implicitAllocator()
-                .allocateArray(JAVA_BYTE, Arrays.copyOfRange(bytes, 0, getLayoutSize()));
+var state = Arena.ofAuto().allocateArray(JAVA_BYTE, Arrays.copyOfRange(bytes, 0, getLayoutSize()));
 
 var packetFormat = PacketHeader.m_packetFormat$get(state);
 var majorVersion = PacketHeader.m_gameMajorVersion$get(state);
 var minorVersion = PacketHeader.m_gameMinorVersion$get(state);
 ```
 
-## How to build JAR file
+## How to build a JAR file
 
 ```shell
 make jar
