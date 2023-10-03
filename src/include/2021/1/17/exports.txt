@@ -43,3 +43,4 @@
 --include-struct PacketLapData   # header: src/include/2021/1/17/PacketLapData.h
 --include-struct PacketCarTelemetryData   # header: src/include/2021/1/17/PacketCarTelemetryData.h
 --include-struct MarshalZone   # header: src/include/2021/1/17/MarshalZone.h
+--include-struct PacketHeader   # header: src/include/2021/1/17/PacketHeader.h

@@ -1,2 +1,3 @@
 --include-struct PacketSessionData   # header: src/include/2021/1/19/PacketSessionData.h
 --include-struct PacketSessionHistoryData   # header: src/include/2021/1/19/PacketSessionHistoryData.h
+--include-struct PacketHeader   # header: src/include/2021/1/17/PacketHeader.h
