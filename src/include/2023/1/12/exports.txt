@@ -25,3 +25,8 @@
 --include-typedef uint8   # header: src/include/ctypedefs.h
 --include-struct LapData   # header: src/include/2023/1/12/LapData.h
 --include-struct PacketHeader   # header: src/include/2023/1/12/PacketHeader.h
+--include-struct PacketCarDamageData   # header: src/include/2023/1/12/PacketCarDamageData.h
+--include-struct PacketCarSetupData   # header: src/include/2023/1/12/PacketCarSetupData.h
+--include-struct PacketCarTelemetryData   # header: src/include/2023/1/12/PacketCarTelemetryData.h
+--include-struct PacketFinalClassificationData   # header: src/include/2023/1/12/PacketFinalClassificationData.h
+--include-struct PacketSessionHistoryData   # header: src/include/2023/1/12/PacketSessionHistoryData.h
