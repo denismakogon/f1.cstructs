@@ -1,6 +1,6 @@
 struct PacketSessionHistoryData
 {
-    PacketHeader  m_header;                   // Header
+    struct PacketHeader  m_header;                   // Header
 
     uint8         m_carIdx;                   // Index of the car this lap data relates to
     uint8         m_numLaps;                  // Num laps in the data (including current partial lap)
@@ -11,6 +11,6 @@ struct PacketSessionHistoryData
     uint8         m_bestSector2LapNum;        // Lap the best Sector 2 time was achieved on
     uint8         m_bestSector3LapNum;        // Lap the best Sector 3 time was achieved on
 
-    LapHistoryData          m_lapHistoryData[100];	// 100 laps of data max
-    TyreStintHistoryData    m_tyreStintsHistoryData[8];
+    struct LapHistoryData          m_lapHistoryData[100];	// 100 laps of data max
+    struct TyreStintHistoryData    m_tyreStintsHistoryData[8];
 };

@@ -19,6 +19,12 @@ extern "C" {
 #include "PacketHeader.h"
 
 // generated with: ls -la | awk '{print "#include " "\""$NF"\""}'
+#include "CarDamageData.h"
+#include "CarSetupData.h"
+#include "CarTelemetryData.h"
+#include "FinalClassificationData.h"
+#include "TyreStintHistoryData.h"
+
 #include "CarMotionData.h"
 #include "CarStatusData.h"
 #include "EventDataDetails.h"
