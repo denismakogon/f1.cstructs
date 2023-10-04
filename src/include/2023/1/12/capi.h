@@ -39,6 +39,11 @@ extern "C" {
 #include "PacketParticipantsData.h"
 #include "PacketSessionData.h"
 #include "PacketTyreSetsData.h"
+#include "PacketCarDamageData.h"
+#include "PacketCarSetupData.h"
+#include "PacketCarTelemetryData.h"
+#include "PacketFinalClassificationData.h"
+#include "PacketSessionHistoryData.h"
 
 #ifdef __cplusplus
 }
