@@ -30,3 +30,9 @@
 --include-struct PacketCarTelemetryData   # header: src/include/2023/1/12/PacketCarTelemetryData.h
 --include-struct PacketFinalClassificationData   # header: src/include/2023/1/12/PacketFinalClassificationData.h
 --include-struct PacketSessionHistoryData   # header: src/include/2023/1/12/PacketSessionHistoryData.h
+
+--include-struct CarDamageData   # header: src/include/2022/1/8/PacketSessionHistoryData.h
+--include-struct CarSetupData   # header: src/include/2022/1/8/PacketSessionHistoryData.h
+--include-struct CarTelemetryData   # header: src/include/2022/1/8/PacketSessionHistoryData.h
+--include-struct FinalClassificationData   # header: src/include/2022/1/8/PacketSessionHistoryData.h
+--include-struct TyreStintHistoryData   # header: src/include/2022/1/8/PacketSessionHistoryData.h

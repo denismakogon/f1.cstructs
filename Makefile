@@ -23,13 +23,13 @@ patch-root:
 	sed 's/PACK/$(package)/g' 'src/Constants$$root.java' > $(JAVA_SOURCES_PATH)/$(shell echo '$(package)' | tr '.' '/')/Constants\$$root.java
 
 dump-stdlib:
-	jextract --source -t f1.specs.datatypes -I $(STDLIB_INCLUDE) $(STDLIB_INCLUDE)/stdlib.h $(args)
+	jextract -t f1.specs.datatypes -I $(STDLIB_INCLUDE) $(STDLIB_INCLUDE)/stdlib.h $(args)
 
 jextracting:
-	jextract --source -t f1.cstructs.year$(year).version$(major_version)_$(minor_version) -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR) -I $(INCLUDE_DIR)/$(year)/$(major_version)/$(minor_version) --header-class-name capi --output $(JAVA_SOURCES_PATH) $(args) $(INCLUDE_DIR)/$(year)/$(major_version)/$(minor_version)/capi.h
+	jextract -t f1.cstructs.year$(year).version$(major_version)_$(minor_version) -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR) -I $(INCLUDE_DIR)/$(year)/$(major_version)/$(minor_version) --header-class-name capi --output $(JAVA_SOURCES_PATH) $(args) $(INCLUDE_DIR)/$(year)/$(major_version)/$(minor_version)/capi.h
 
 jextracting-packet-header:
-	jextract --source -t f1.cstructs -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR) --output $(JAVA_SOURCES_PATH) $(args) $(INCLUDE_DIR)/BasePacketHeader.h
+	jextract  -t f1.cstructs -I $(STDLIB_INCLUDE) -I $(INCLUDE_DIR) --output $(JAVA_SOURCES_PATH) $(args) $(INCLUDE_DIR)/BasePacketHeader.h
 
 collect-packet-header:
 	$(MAKE) jextracting-packet-header args='--include-struct BasePacketHeader'
@@ -48,11 +48,11 @@ collect-packets:
 	rm -fr *.txt
 
 java-src: clean
-	$(MAKE) collect-packets year=2021 major_version=1 minor_version=17
-	$(MAKE) collect-packets year=2021 major_version=1 minor_version=19 include_arg="-I $(INCLUDE_DIR)/2021/1/17"
+	# $(MAKE) collect-packets year=2021 major_version=1 minor_version=17
+	# $(MAKE) collect-packets year=2021 major_version=1 minor_version=19 include_arg="-I $(INCLUDE_DIR)/2021/1/17"
 	
-	$(MAKE) collect-packets year=2022 major_version=1 minor_version=8
-	$(MAKE) collect-packets year=2022 major_version=1 minor_version=9
+	# $(MAKE) collect-packets year=2022 major_version=1 minor_version=8
+	# $(MAKE) collect-packets year=2022 major_version=1 minor_version=9
 	$(MAKE) collect-packets year=2022 major_version=1 minor_version=12
 
 	$(MAKE) collect-packets year=2023 major_version=1 minor_version=12 include_arg="-I $(INCLUDE_DIR)/2022/1/8"
